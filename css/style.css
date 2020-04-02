@@ -400,13 +400,12 @@ h4 {
 /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_btn.scss */
 .boxed-btn {
   background: #fff;
-  color: #131313;
+  color: #367FC1;
   display: inline-block;
   padding: 14px 44px;
   font-family: "Muli", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  border: 0;
   border: 1px solid #367FC1;
   text-align: center;
   color: #367FC1 !important;
@@ -1294,401 +1293,6 @@ h4 {
   }
 }
 
-/* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_features.scss */
-.features_area {
-  padding: 77px 0 90px 0;
-}
-
-@media (max-width: 767px) {
-  /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_features.scss */
-  .features_area {
-    padding: 30px 0 40px 0;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_features.scss */
-  .features_area {
-    padding: 30px 0 40px 0;
-  }
-}
-
-/* line 10, ../../Arafath/CL/December/233. Startup/HTML/scss/_features.scss */
-.features_area .about_image img {
-  width: auto;
-}
-
-/* line 15, ../../Arafath/CL/December/233. Startup/HTML/scss/_features.scss */
-.features_area .about_draw img {
-  width: 100%;
-}
-
-/* line 19, ../../Arafath/CL/December/233. Startup/HTML/scss/_features.scss */
-.features_area .features_main_wrap {
-  padding: 90px 0;
-}
-
-@media (max-width: 767px) {
-  /* line 19, ../../Arafath/CL/December/233. Startup/HTML/scss/_features.scss */
-  .features_area .features_main_wrap {
-    padding: 30px 0;
-  }
-}
-
-@media (max-width: 767px) {
-  /* line 25, ../../Arafath/CL/December/233. Startup/HTML/scss/_features.scss */
-  .features_area .features_main_wrap .about_image img {
-    width: 100%;
-  }
-}
-
-@media (max-width: 767px) {
-  /* line 32, ../../Arafath/CL/December/233. Startup/HTML/scss/_features.scss */
-  .features_area .features_info2 {
-    margin-bottom: 30px;
-  }
-}
-
-/* line 36, ../../Arafath/CL/December/233. Startup/HTML/scss/_features.scss */
-.features_area .features_info2 h3 {
-  font-size: 46px;
-  line-height: 60px;
-  font-weight: 300;
-  color: #2C2C2C;
-}
-
-@media (max-width: 767px) {
-  /* line 36, ../../Arafath/CL/December/233. Startup/HTML/scss/_features.scss */
-  .features_area .features_info2 h3 {
-    font-size: 30px;
-    line-height: 40px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 36, ../../Arafath/CL/December/233. Startup/HTML/scss/_features.scss */
-  .features_area .features_info2 h3 {
-    font-size: 35px;
-    line-height: 45px;
-  }
-}
-
-@media (min-width: 992px) and (max-width: 1200px) {
-  /* line 36, ../../Arafath/CL/December/233. Startup/HTML/scss/_features.scss */
-  .features_area .features_info2 h3 {
-    font-size: 30px;
-    line-height: 40px;
-  }
-}
-
-/* line 54, ../../Arafath/CL/December/233. Startup/HTML/scss/_features.scss */
-.features_area .features_info2 p {
-  font-size: 16px;
-  line-height: 28px;
-  color: #727272;
-  margin-bottom: 22px;
-  line-height: 30px;
-  margin-top: 20px;
-  margin-bottom: 32px;
-}
-
-@media (min-width: 992px) and (max-width: 1200px) {
-  /* line 62, ../../Arafath/CL/December/233. Startup/HTML/scss/_features.scss */
-  .features_area .features_info2 p br {
-    display: none;
-  }
-}
-
-/* line 69, ../../Arafath/CL/December/233. Startup/HTML/scss/_features.scss */
-.features_area .features_info {
-  padding-left: 68px;
-}
-
-@media (max-width: 767px) {
-  /* line 69, ../../Arafath/CL/December/233. Startup/HTML/scss/_features.scss */
-  .features_area .features_info {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 69, ../../Arafath/CL/December/233. Startup/HTML/scss/_features.scss */
-  .features_area .features_info {
-    padding-left: 30px;
-    padding-top: 100px;
-    padding-bottom: 50px;
-  }
-}
-
-@media (min-width: 992px) and (max-width: 1200px) {
-  /* line 69, ../../Arafath/CL/December/233. Startup/HTML/scss/_features.scss */
-  .features_area .features_info {
-    padding-left: 30px;
-    padding-top: 0;
-    padding-bottom: 40px;
-  }
-}
-
-@media (min-width: 1200px) and (max-width: 1500px) {
-  /* line 69, ../../Arafath/CL/December/233. Startup/HTML/scss/_features.scss */
-  .features_area .features_info {
-    padding-left: 30px;
-    padding-top: 0;
-  }
-}
-
-/* line 93, ../../Arafath/CL/December/233. Startup/HTML/scss/_features.scss */
-.features_area .features_info h3 {
-  font-size: 46px;
-  line-height: 60px;
-  font-weight: 300;
-  color: #2C2C2C;
-}
-
-@media (max-width: 767px) {
-  /* line 93, ../../Arafath/CL/December/233. Startup/HTML/scss/_features.scss */
-  .features_area .features_info h3 {
-    font-size: 30px;
-    line-height: 40px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 93, ../../Arafath/CL/December/233. Startup/HTML/scss/_features.scss */
-  .features_area .features_info h3 {
-    font-size: 38px;
-    line-height: 50px;
-  }
-}
-
-@media (min-width: 992px) and (max-width: 1200px) {
-  /* line 93, ../../Arafath/CL/December/233. Startup/HTML/scss/_features.scss */
-  .features_area .features_info h3 {
-    font-size: 30px;
-    line-height: 40px;
-  }
-}
-
-@media (max-width: 767px) {
-  /* line 110, ../../Arafath/CL/December/233. Startup/HTML/scss/_features.scss */
-  .features_area .features_info h3 br {
-    display: none;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 110, ../../Arafath/CL/December/233. Startup/HTML/scss/_features.scss */
-  .features_area .features_info h3 br {
-    display: none;
-  }
-}
-
-@media (min-width: 992px) and (max-width: 1200px) {
-  /* line 110, ../../Arafath/CL/December/233. Startup/HTML/scss/_features.scss */
-  .features_area .features_info h3 br {
-    display: none;
-  }
-}
-
-/* line 122, ../../Arafath/CL/December/233. Startup/HTML/scss/_features.scss */
-.features_area .features_info p {
-  font-size: 16px;
-  line-height: 28px;
-  color: #727272;
-  margin-bottom: 22px;
-  margin-top: 28px;
-}
-
-@media (min-width: 992px) and (max-width: 1200px) {
-  /* line 128, ../../Arafath/CL/December/233. Startup/HTML/scss/_features.scss */
-  .features_area .features_info p br {
-    display: none;
-  }
-}
-
-/* line 134, ../../Arafath/CL/December/233. Startup/HTML/scss/_features.scss */
-.features_area .features_info ul {
-  margin-bottom: 56px;
-}
-
-@media (max-width: 767px) {
-  /* line 134, ../../Arafath/CL/December/233. Startup/HTML/scss/_features.scss */
-  .features_area .features_info ul {
-    margin-bottom: 30px;
-  }
-}
-
-/* line 139, ../../Arafath/CL/December/233. Startup/HTML/scss/_features.scss */
-.features_area .features_info ul li {
-  font-size: 16px;
-  line-height: 28px;
-  color: #727272;
-  position: relative;
-  padding-left: 28px;
-  margin-bottom: 5px;
-  font-weight: 400;
-  z-index: 1;
-}
-
-/* line 148, ../../Arafath/CL/December/233. Startup/HTML/scss/_features.scss */
-.features_area .features_info ul li::before {
-  position: absolute;
-  left: 0;
-  background-image: url(../img/ilstrator_img/check.svg);
-  width: 16px;
-  height: 16px;
-  content: '';
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-/* line 160, ../../Arafath/CL/December/233. Startup/HTML/scss/_features.scss */
-.features_area .features_info .boxed-btn3 {
-  padding: 13px 46px 14px 46px;
-}
-
-/* line 168, ../../Arafath/CL/December/233. Startup/HTML/scss/_features.scss */
-.productivity_area {
-  background-image: url(../img/banner/product.png);
-  background-size: cover;
-  background-position: center center;
-  padding: 164px 0;
-  background-repeat: no-repeat;
-}
-
-@media (max-width: 767px) {
-  /* line 168, ../../Arafath/CL/December/233. Startup/HTML/scss/_features.scss */
-  .productivity_area {
-    padding: 100px 0;
-  }
-}
-
-/* line 177, ../../Arafath/CL/December/233. Startup/HTML/scss/_features.scss */
-.productivity_area h3 {
-  font-size: 46px;
-  font-weight: 300;
-  color: #FFFFFF;
-  line-height: 60px;
-}
-
-@media (max-width: 767px) {
-  /* line 177, ../../Arafath/CL/December/233. Startup/HTML/scss/_features.scss */
-  .productivity_area h3 {
-    font-size: 30px;
-    line-height: 35px;
-    margin-bottom: 10px;
-    text-align: center;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 177, ../../Arafath/CL/December/233. Startup/HTML/scss/_features.scss */
-  .productivity_area h3 {
-    margin-bottom: 30px;
-  }
-}
-
-/* line 192, ../../Arafath/CL/December/233. Startup/HTML/scss/_features.scss */
-.productivity_area .app_download {
-  text-align: right;
-}
-
-@media (max-width: 767px) {
-  /* line 192, ../../Arafath/CL/December/233. Startup/HTML/scss/_features.scss */
-  .productivity_area .app_download {
-    text-align: center;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 192, ../../Arafath/CL/December/233. Startup/HTML/scss/_features.scss */
-  .productivity_area .app_download {
-    text-align: center;
-  }
-}
-
-/* line 200, ../../Arafath/CL/December/233. Startup/HTML/scss/_features.scss */
-.productivity_area .app_download img {
-  margin-left: 9px;
-}
-
-@media (max-width: 767px) {
-  /* line 200, ../../Arafath/CL/December/233. Startup/HTML/scss/_features.scss */
-  .productivity_area .app_download img {
-    margin: 5px 0;
-  }
-}
-
-/* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_counter.scss */
-.counter_area {
-  padding-bottom: 120px;
-  padding-top: 75px;
-}
-
-@media (max-width: 767px) {
-  /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_counter.scss */
-  .counter_area {
-    padding-bottom: 30px;
-    padding-top: 60px;
-  }
-}
-
-/* line 8, ../../Arafath/CL/December/233. Startup/HTML/scss/_counter.scss */
-.counter_area .single_counter {
-  border: 1px solid #E8E8E8;
-  padding: 50px 0 43px 0;
-  margin-bottom: 30px;
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-}
-
-/* line 13, ../../Arafath/CL/December/233. Startup/HTML/scss/_counter.scss */
-.counter_area .single_counter h3 {
-  margin-bottom: 16px;
-}
-
-/* line 15, ../../Arafath/CL/December/233. Startup/HTML/scss/_counter.scss */
-.counter_area .single_counter h3 span {
-  color: #367FC1;
-  font-size: 50px;
-  font-weight: 700;
-}
-
-@media (max-width: 767px) {
-  /* line 15, ../../Arafath/CL/December/233. Startup/HTML/scss/_counter.scss */
-  .counter_area .single_counter h3 span {
-    font-size: 35px;
-  }
-}
-
-/* line 22, ../../Arafath/CL/December/233. Startup/HTML/scss/_counter.scss */
-.counter_area .single_counter h3 span span {
-  position: relative;
-  top: -2px;
-}
-
-/* line 29, ../../Arafath/CL/December/233. Startup/HTML/scss/_counter.scss */
-.counter_area .single_counter p {
-  font-size: 15px;
-  color: #001D38;
-  font-weight: 400;
-  margin-bottom: 0;
-}
-
-/* line 35, ../../Arafath/CL/December/233. Startup/HTML/scss/_counter.scss */
-.counter_area .single_counter:hover {
-  border: 1px solid #367FC1;
-}
-
-/* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_about.scss */
 .about_area {
   background: #1F1F1F;
   position: relative;
@@ -1907,73 +1511,6 @@ h4 {
   margin-top: 40px;
 }
 
-/* line 64, ../../Arafath/CL/December/233. Startup/HTML/scss/_gallery.scss */
-.portfolio_details_area {
-  padding-top: 280px;
-  padding-bottom: 150px;
-}
-
-@media (max-width: 767px) {
-  /* line 64, ../../Arafath/CL/December/233. Startup/HTML/scss/_gallery.scss */
-  .portfolio_details_area {
-    padding-top: 100px;
-    padding-bottom: 50px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 64, ../../Arafath/CL/December/233. Startup/HTML/scss/_gallery.scss */
-  .portfolio_details_area {
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
-}
-
-/* line 76, ../../Arafath/CL/December/233. Startup/HTML/scss/_gallery.scss */
-.portfolio_details_area .portfolio_details_thumb img {
-  width: 100%;
-}
-
-/* line 81, ../../Arafath/CL/December/233. Startup/HTML/scss/_gallery.scss */
-.portfolio_details_area .portfolio_details_content span {
-  font-size: 14px;
-  font-weight: 300;
-  color: #919191;
-}
-
-/* line 86, ../../Arafath/CL/December/233. Startup/HTML/scss/_gallery.scss */
-.portfolio_details_area .portfolio_details_content h3 {
-  color: #2C2C2C;
-  font-size: 36px;
-  font-weight: 400;
-  line-height: 55px;
-  margin-top: 15px;
-  margin-bottom: 25px;
-}
-
-@media (max-width: 767px) {
-  /* line 86, ../../Arafath/CL/December/233. Startup/HTML/scss/_gallery.scss */
-  .portfolio_details_area .portfolio_details_content h3 {
-    font-size: 25px;
-    line-height: 40px;
-  }
-}
-
-/* line 98, ../../Arafath/CL/December/233. Startup/HTML/scss/_gallery.scss */
-.portfolio_details_area .portfolio_details_content h4 {
-  font-size: 20px;
-  font-weight: 400;
-  color: #2C2C2C;
-}
-
-/* line 103, ../../Arafath/CL/December/233. Startup/HTML/scss/_gallery.scss */
-.portfolio_details_area .portfolio_details_content p {
-  font-size: 16px;
-  font-family: "Muli", sans-serif;
-  color: #727272;
-  line-height: 28px;
-}
-
 /* line 112, ../../Arafath/CL/December/233. Startup/HTML/scss/_gallery.scss */
 .mt-50 {
   margin-top: 50px;
@@ -2169,22 +1706,22 @@ h4 {
 
 /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
 .bradcam_bg_1 {
-  background-image: url(../img/banner/bradcam.png);
+  background-image: url(../img/banner/comentarios_empresas.jpg);
 }
 
 /* line 4, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
 .breadcam_bg_2 {
-  background-image: url(../img/banner/bradcam_2.png);
+  background-image: url(../img/banner/DiseñoWeb.png);
 }
 
 /* line 7, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
 .breadcam_bg_3 {
-  background-image: url(../img/banner/bradcam_3.png);
+  background-image: url(../img/banner/googleads.jpg);
 }
 
 /* line 10, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
 .breadcam_bg_4 {
-  background-image: url(../img/banner/bradcam_4.png);
+  background-image: url(../img/banner/contactoLocalMkt.jpg);
 }
 
 /* line 13, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
@@ -2252,28 +1789,24 @@ h4 {
   color: #fff;
 }
 
-/* line 60, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
-.popup_box {
+/* .popup_box {
   background: #fff;
   display: inline-block;
   z-index: 9;
   width: 558px;
 }
 
-/* line 67, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
 .popup_box .boxed-btn3 {
   width: 100%;
   text-transform: capitalize;
 }
 
-/* line 71, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
 .popup_box .popup_header {
   background: #F5FBFF;
   padding: 28px 0;
   display: block;
 }
 
-/* line 75, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
 .popup_box .popup_header h3 {
   text-align: center;
   font-size: 20px;
@@ -2282,12 +1815,10 @@ h4 {
   font-weight: 400;
 }
 
-/* line 83, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
 .popup_box .custom_form {
   padding: 60px 68px;
 }
 
-/* line 87, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
 .popup_box input {
   width: 100%;
   height: 50px;
@@ -2297,18 +1828,15 @@ h4 {
   margin-bottom: 20px;
 }
 
-/* line 94, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
 .popup_box input::placeholder {
   color: #919191;
   font-weight: 400;
 }
 
-/* line 98, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
 .popup_box input:focus {
   outline: none;
 }
 
-/* line 102, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
 .popup_box textarea {
   width: 100%;
   border: none;
@@ -2321,23 +1849,20 @@ h4 {
   margin-bottom: 40px;
 }
 
-/* line 113, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
 .popup_box textarea::placeholder {
   color: #919191;
   font-weight: 400;
 }
 
-/* line 117, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
 .popup_box textarea:focus {
   outline: none;
 }
 
-/* line 121, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
 .popup_box .nice-select {
   -webkit-tap-highlight-color: transparent;
   background-color: #fff;
   /* border-radius: 5px; */
-  border: solid 1px #E2E2E2;
+  /* border: solid 1px #E2E2E2;
   box-sizing: border-box;
   clear: both;
   cursor: pointer;
@@ -2347,7 +1872,7 @@ h4 {
   font-weight: normal;
   width: 100% !important;
   /* height: 42px; */
-  line-height: 50px;
+  /* line-height: 50px;
   outline: none;
   padding-left: 18px;
   padding-right: 30px;
@@ -2369,7 +1894,6 @@ h4 {
   color: #919191;
 }
 
-/* line 155, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
 .popup_box .nice-select::after {
   content: "\f0d7";
   display: block;
@@ -2386,7 +1910,6 @@ h4 {
   font-size: 15px;
 }
 
-/* line 170, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
 .popup_box .nice-select.open .list {
   opacity: 1;
   pointer-events: auto;
@@ -2397,11 +1920,10 @@ h4 {
   overflow-y: scroll;
 }
 
-/* line 179, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
 .popup_box .nice-select.list {
   height: 200px;
   overflow-y: scroll;
-}
+}  */
 
 /* line 185, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
 #test-form {
@@ -2439,93 +1961,6 @@ h4 {
   position: fixed;
   background: #000000;
   opacity: .7;
-}
-
-/* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_department.scss */
-.our_department_area {
-  background: #F5FBFF;
-  padding-top: 120px;
-  padding-bottom: 90px;
-}
-
-/* line 5, ../../Arafath/CL/December/233. Startup/HTML/scss/_department.scss */
-.our_department_area .single_department {
-  background: #fff;
-  margin-bottom: 30px;
-  -webkit-box-shadow: 0 6px 10px rgba(0, 0, 0, 0.04);
-  -moz-box-shadow: 0 6px 10px rgba(0, 0, 0, 0.04);
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.04);
-}
-
-/* line 9, ../../Arafath/CL/December/233. Startup/HTML/scss/_department.scss */
-.our_department_area .single_department .department_thumb {
-  overflow: hidden;
-  border-top-right-radius: 5px;
-  border-top-left-radius: 5px;
-}
-
-/* line 13, ../../Arafath/CL/December/233. Startup/HTML/scss/_department.scss */
-.our_department_area .single_department .department_thumb img {
-  width: 100%;
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-}
-
-/* line 19, ../../Arafath/CL/December/233. Startup/HTML/scss/_department.scss */
-.our_department_area .single_department .department_content {
-  padding: 22px 30px 24px 30px;
-}
-
-/* line 21, ../../Arafath/CL/December/233. Startup/HTML/scss/_department.scss */
-.our_department_area .single_department .department_content h3 {
-  margin-bottom: 0;
-}
-
-/* line 23, ../../Arafath/CL/December/233. Startup/HTML/scss/_department.scss */
-.our_department_area .single_department .department_content h3 a {
-  font-size: 22px;
-  color: #1F1F1F;
-  line-height: 33px;
-  font-weight: 500;
-}
-
-/* line 28, ../../Arafath/CL/December/233. Startup/HTML/scss/_department.scss */
-.our_department_area .single_department .department_content h3 a:hover {
-  color: #367FC1;
-}
-
-/* line 33, ../../Arafath/CL/December/233. Startup/HTML/scss/_department.scss */
-.our_department_area .single_department .department_content p {
-  font-size: 16px;
-  line-height: 28px;
-  color: #727272;
-  margin-top: 5px;
-  margin-bottom: 10px;
-}
-
-/* line 40, ../../Arafath/CL/December/233. Startup/HTML/scss/_department.scss */
-.our_department_area .single_department .department_content a.learn_more {
-  color: #367FC1;
-  font-size: 16px;
-}
-
-/* line 43, ../../Arafath/CL/December/233. Startup/HTML/scss/_department.scss */
-.our_department_area .single_department .department_content a.learn_more:hover {
-  text-decoration: underline;
-}
-
-/* line 50, ../../Arafath/CL/December/233. Startup/HTML/scss/_department.scss */
-.our_department_area .single_department:hover .department_thumb img {
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
 }
 
 /* line 2, ../../Arafath/CL/December/233. Startup/HTML/scss/_tesmonial.scss */
@@ -2620,49 +2055,6 @@ h4 {
   left: 0;
 }
 
-/* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_discuss.scss */
-.discuss_projects {
-  background: #001D38;
-  padding: 150px 0 50px 0;
-}
-
-@media (max-width: 767px) {
-  /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_discuss.scss */
-  .discuss_projects {
-    padding: 50px 0 50px 0;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_discuss.scss */
-  .discuss_projects {
-    padding: 100px 0 50px 0;
-  }
-}
-
-/* line 11, ../../Arafath/CL/December/233. Startup/HTML/scss/_discuss.scss */
-.discuss_projects .project_text h3 {
-  color: #fff;
-  font-size: 50px;
-  font-weight: 700;
-}
-
-@media (max-width: 767px) {
-  /* line 11, ../../Arafath/CL/December/233. Startup/HTML/scss/_discuss.scss */
-  .discuss_projects .project_text h3 {
-    font-size: 38px;
-  }
-}
-
-/* line 19, ../../Arafath/CL/December/233. Startup/HTML/scss/_discuss.scss */
-.discuss_projects .project_text p {
-  color: #fff;
-  font-size: 15px;
-  line-height: 28px;
-  margin-bottom: 30px;
-  margin-top: 12px;
-}
-
 /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_service.scss */
 .service_area {
   padding-top: 64px;
@@ -2732,11 +2124,11 @@ h4 {
 
 /* line 40, ../../Arafath/CL/December/233. Startup/HTML/scss/_service.scss */
 .service_area .single_service:hover {
-  border: 2px solid #367FC1;
+  border: 2px solid red;
 }
 
 
-/* Duplicate Service-area y single-service */
+/* Duplicate Service-area1 y single-service */
 .service_area1 {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -2793,500 +2185,135 @@ h4 {
 }
 
 
-/* /-Duplicate Service-area y single-service */
+/* /-Duplicate Service-area1 y single-service */
 
-
-/* line 2, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio.scss */
-.portfolio_image_area {
-  padding-top: 147px;
-  padding-bottom: 130px;
-  position: relative;
+/* Duplicate Service-area2 y single-service */
+.service_area2 {
+  padding-top: 50px;
+  padding-bottom: 0px;
+  margin-bottom: 20px;
+  
 }
 
 @media (max-width: 767px) {
-  /* line 2, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio.scss */
-  .portfolio_image_area {
-    padding-top: 70px;
+  .service_area2 {
+    padding-bottom: 40px;
+    padding-top: 50px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .service_area2 {
     padding-bottom: 40px;
   }
 }
 
-/* line 10, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio.scss */
-.portfolio_image_area.dec_margin {
-  margin-top: 0;
-  padding-top: 150px;
-  padding-bottom: 150px;
-}
-
-@media (max-width: 767px) {
-  /* line 10, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio.scss */
-  .portfolio_image_area.dec_margin {
-    padding: 50px 0;
-  }
+.service_area2 .single_service2 {
+  padding: 48px 35px 45px 35px;
+  border: 2px solid #E8E8E8;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  margin-bottom: 0px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 10, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio.scss */
-  .portfolio_image_area.dec_margin {
-    padding: 70px 0;
+  .service_area2 .single_service2 {
+    padding: 30px 20px;
   }
 }
 
-@media (min-width: 992px) and (max-width: 1200px) {
-  /* line 10, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio.scss */
-  .portfolio_image_area.dec_margin {
-    padding: 100px 0;
-  }
-}
-
-/* line 24, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio.scss */
-.portfolio_image_area .single_Portfolio {
-  position: relative;
-  margin-bottom: 30px;
-  overflow: hidden;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-}
-
-/* line 29, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio.scss */
-.portfolio_image_area .single_Portfolio .portfolio_thumb {
-  height: 350px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  overflow: hidden;
-}
-
-@media (max-width: 767px) {
-  /* line 29, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio.scss */
-  .portfolio_image_area .single_Portfolio .portfolio_thumb {
-    height: auto;
-  }
-}
-
-/* line 36, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio.scss */
-.portfolio_image_area .single_Portfolio .portfolio_thumb img {
-  width: 100%;
-  height: 100%;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-}
-
-/* line 42, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio.scss */
-.portfolio_image_area .single_Portfolio .portfolio_hover {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  background: #fff;
-  border: 0;
-  -webkit-transform: scale(0.9);
-  -moz-transform: scale(0.9);
-  -ms-transform: scale(0.9);
-  transform: scale(0.9);
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-  opacity: 0;
-  overflow: hidden;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-}
-
-/* line 56, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio.scss */
-.portfolio_image_area .single_Portfolio .portfolio_hover .title {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  right: 0;
-  text-align: center;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-/* line 64, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio.scss */
-.portfolio_image_area .single_Portfolio .portfolio_hover span {
-  font-size: 14px;
-  color: #367FC1;
-  font-weight: 400;
-  font-family: "Roboto", sans-serif;
-}
-
-/* line 70, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio.scss */
-.portfolio_image_area .single_Portfolio .portfolio_hover h3 {
-  color: #1F1F1F;
+.service_area2 .single_service2 h3 {
   font-size: 24px;
-  font-weight: 700;
-  margin-top: 11px;
-  margin-bottom: 25px;
-}
-
-/* line 78, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio.scss */
-.portfolio_image_area .single_Portfolio .portfolio_hover .boxed-btn3:hover {
-  border: 1px solid #367FC1 !important;
-  color: #367FC1 !important;
-  background: #fff !important;
-}
-
-/* line 85, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio.scss */
-.portfolio_image_area .single_Portfolio:hover .portfolio_hover {
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
-  opacity: 1;
-}
-
-/* line 90, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio.scss */
-.portfolio_image_area .more_portfolio {
-  margin-top: 60px;
-}
-
-/* line 93, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio.scss */
-.portfolio_image_area .popup {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 9;
-}
-
-/* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_experts.scss */
-.expert_doctors_area {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
-/* line 4, ../../Arafath/CL/December/233. Startup/HTML/scss/_experts.scss */
-.expert_doctors_area.doctor_page {
-  padding-bottom: 80px;
-}
-
-@media (max-width: 767px) {
-  /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_experts.scss */
-  .expert_doctors_area {
-    padding-top: 80px;
-    padding-bottom: 80px;
-  }
-}
-
-/* line 12, ../../Arafath/CL/December/233. Startup/HTML/scss/_experts.scss */
-.expert_doctors_area .doctors_title h3 {
-  font-size: 36px;
-  font-weight: 500;
-  color: #1F1F1F;
-}
-
-@media (max-width: 767px) {
-  /* line 12, ../../Arafath/CL/December/233. Startup/HTML/scss/_experts.scss */
-  .expert_doctors_area .doctors_title h3 {
-    font-size: 24px;
-  }
-}
-
-/* line 22, ../../Arafath/CL/December/233. Startup/HTML/scss/_experts.scss */
-.expert_doctors_area .single_expert .expert_thumb {
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  overflow: hidden;
-}
-
-/* line 26, ../../Arafath/CL/December/233. Startup/HTML/scss/_experts.scss */
-.expert_doctors_area .single_expert .expert_thumb img {
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
-  width: 100%;
-}
-
-/* line 32, ../../Arafath/CL/December/233. Startup/HTML/scss/_experts.scss */
-.expert_doctors_area .single_expert .experts_name {
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-  background: #F5FBFF;
-  padding-top: 16px;
-  padding-bottom: 18px;
-}
-
-/* line 37, ../../Arafath/CL/December/233. Startup/HTML/scss/_experts.scss */
-.expert_doctors_area .single_expert .experts_name h3 {
-  font-size: 20px;
-  font-weight: 500;
-  margin-bottom: 1px;
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-}
-
-/* line 43, ../../Arafath/CL/December/233. Startup/HTML/scss/_experts.scss */
-.expert_doctors_area .single_expert .experts_name span {
-  color: #919191;
-  font-size: 13px;
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-}
-
-/* line 51, ../../Arafath/CL/December/233. Startup/HTML/scss/_experts.scss */
-.expert_doctors_area .single_expert:hover .expert_thumb img {
-  -webkit-transform: scale(1.03);
-  -moz-transform: scale(1.03);
-  -ms-transform: scale(1.03);
-  transform: scale(1.03);
-}
-
-/* line 55, ../../Arafath/CL/December/233. Startup/HTML/scss/_experts.scss */
-.expert_doctors_area .single_expert:hover .experts_name {
-  background: #367FC1;
-}
-
-/* line 57, ../../Arafath/CL/December/233. Startup/HTML/scss/_experts.scss */
-.expert_doctors_area .single_expert:hover .experts_name h3 {
-  color: #fff;
-}
-
-/* line 60, ../../Arafath/CL/December/233. Startup/HTML/scss/_experts.scss */
-.expert_doctors_area .single_expert:hover .experts_name span {
-  color: #fff;
-}
-
-/* line 67, ../../Arafath/CL/December/233. Startup/HTML/scss/_experts.scss */
-.expert_doctors_area .owl-carousel .owl-nav div {
-  background: transparent;
-  height: 40px;
-  left: 0px;
-  text-align: center;
-  -webkit-transform: translateY(0%);
-  -ms-transform: translateY(0%);
-  transform: translateY(0%);
-  width: 40px;
-  color: #919191;
-  background-color: transparent;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  font-size: 15px;
-  line-height: 40px;
-  border: 1px solid #EEEEEE;
-  left: auto;
-  left: auto;
-  top: -100px;
-  right: 55px;
-}
-
-/* line 89, ../../Arafath/CL/December/233. Startup/HTML/scss/_experts.scss */
-.expert_doctors_area .owl-carousel .owl-nav div.owl-next {
-  left: auto;
-  right: 0;
-}
-
-/* line 94, ../../Arafath/CL/December/233. Startup/HTML/scss/_experts.scss */
-.expert_doctors_area .owl-carousel .owl-nav div.owl-next i {
-  position: relative;
-  right: 0;
-}
-
-/* line 101, ../../Arafath/CL/December/233. Startup/HTML/scss/_experts.scss */
-.expert_doctors_area .owl-carousel .owl-nav div.owl-prev i {
-  position: relative;
-  top: 0px;
-}
-
-/* line 3, ../../Arafath/CL/December/233. Startup/HTML/scss/_emergency_contact.scss */
-.Emergency_contact .single_emergency {
-  padding: 91px 0;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-@media (max-width: 767px) {
-  /* line 3, ../../Arafath/CL/December/233. Startup/HTML/scss/_emergency_contact.scss */
-  .Emergency_contact .single_emergency {
-    padding: 40px;
-    display: block !important;
-  }
-}
-
-/* line 12, ../../Arafath/CL/December/233. Startup/HTML/scss/_emergency_contact.scss */
-.Emergency_contact .single_emergency .info {
-  margin-right: 30px;
-}
-
-/* line 14, ../../Arafath/CL/December/233. Startup/HTML/scss/_emergency_contact.scss */
-.Emergency_contact .single_emergency .info h3 {
-  font-size: 26px;
-  font-weight: 500;
-  color: #fff;
-}
-
-@media (min-width: 1200px) and (max-width: 1500px) {
-  /* line 14, ../../Arafath/CL/December/233. Startup/HTML/scss/_emergency_contact.scss */
-  .Emergency_contact .single_emergency .info h3 {
-    font-size: 20px;
-  }
-}
-
-/* line 22, ../../Arafath/CL/December/233. Startup/HTML/scss/_emergency_contact.scss */
-.Emergency_contact .single_emergency .info p {
-  color: #fff;
-  font-size: 13px;
   font-weight: 400;
-  margin-bottom: 0;
+  color: black;
+  margin-top: 29px;
+  margin-bottom: 13px;
 }
 
-/* line 30, ../../Arafath/CL/December/233. Startup/HTML/scss/_emergency_contact.scss */
-.Emergency_contact .single_emergency .info_button a {
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  border-radius: 30px;
-}
-
-/* line 36, ../../Arafath/CL/December/233. Startup/HTML/scss/_emergency_contact.scss */
-.emergency_bg_1 {
-  background-image: url(../img/banner/emergency-1.png);
-}
-
-/* line 39, ../../Arafath/CL/December/233. Startup/HTML/scss/_emergency_contact.scss */
-.emergency_bg_2 {
-  background-image: url(../img/banner/emergency-2.png);
-}
-
-/* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_prising.scss */
-.prising_area {
-  padding-top: 170px;
-  padding-bottom: 150px;
-}
-
-/* line 4, ../../Arafath/CL/December/233. Startup/HTML/scss/_prising.scss */
-.prising_area.minus_padding {
-  padding-bottom: 0;
-}
-
-@media (max-width: 767px) {
-  /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_prising.scss */
-  .prising_area {
-    padding: 50px 0 20px 0;
+@media (min-width: 768px) and (max-width: 991px) {
+  .service_area2 .single_service2 h3 {
+    font-size: 22px;
   }
 }
 
-/* line 10, ../../Arafath/CL/December/233. Startup/HTML/scss/_prising.scss */
-.prising_area .section_title {
-  padding-bottom: 90px;
+.service_area2 .single_service2:hover {
+  border: 2px solid red;
+}
+
+/* /-Duplicate Service-area2 y single-service */
+
+/* Duplicate Service-area3 y single-service */
+.service_area3 {
+  padding-top: 50px;
 }
 
 @media (max-width: 767px) {
-  /* line 10, ../../Arafath/CL/December/233. Startup/HTML/scss/_prising.scss */
-  .prising_area .section_title {
-    padding-bottom: 30px;
+  .service_area3 {
+    padding-bottom: 40px;
+    padding-top: 50px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 10, ../../Arafath/CL/December/233. Startup/HTML/scss/_prising.scss */
-  .prising_area .section_title {
-    padding-bottom: 50px;
+  .service_area3 {
+    padding-bottom: 40px;
   }
 }
 
-/* line 25, ../../Arafath/CL/December/233. Startup/HTML/scss/_prising.scss */
-.prising_area .single_prising {
-  margin-bottom: 30px;
-  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
-  padding-bottom: 40px;
+.service_area3 .single_service3 {
+  padding: 48px 35px 45px 35px;
+  border: 2px solid #E8E8E8;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  margin-bottom: 0px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 
-/* line 29, ../../Arafath/CL/December/233. Startup/HTML/scss/_prising.scss */
-.prising_area .single_prising .prising_header {
-  background: #E9F4FE;
-  padding: 28px 35px;
+@media (min-width: 768px) and (max-width: 991px) {
+  .service_area3 .single_service3 {
+    padding: 30px 20px;
+  }
 }
 
-/* line 32, ../../Arafath/CL/December/233. Startup/HTML/scss/_prising.scss */
-.prising_area .single_prising .prising_header h3 {
-  font-size: 18px;
-  font-weight: 500;
-  margin-bottom: 0;
+.service_area3 .single_service3 h3 {
+  font-size: 24px;
+  font-weight: 400;
+  color: black;
+  margin-top: 29px;
+  margin-bottom: 13px;
 }
 
-/* line 37, ../../Arafath/CL/December/233. Startup/HTML/scss/_prising.scss */
-.prising_area .single_prising .prising_header span {
-  font-size: 20px;
-  font-weight: 500;
-  color: #0181F5;
-  line-height: 20px;
+@media (min-width: 768px) and (max-width: 991px) {
+  .service_area3 .single_service3 h3 {
+    font-size: 22px;
+  }
 }
 
-/* line 44, ../../Arafath/CL/December/233. Startup/HTML/scss/_prising.scss */
-.prising_area .single_prising .prising_header.green_header {
-  background: #E8FCF1;
+.service_area3 .single_service2:hover {
+  border: 2px solid red;
 }
 
-/* line 46, ../../Arafath/CL/December/233. Startup/HTML/scss/_prising.scss */
-.prising_area .single_prising .prising_header.green_header span {
-  color: #00D363;
-}
+/* /-Duplicate Service-area3 y single-service */
 
-/* line 50, ../../Arafath/CL/December/233. Startup/HTML/scss/_prising.scss */
-.prising_area .single_prising .prising_header.pink_header {
-  background: #FEF4EE;
-}
-
-/* line 52, ../../Arafath/CL/December/233. Startup/HTML/scss/_prising.scss */
-.prising_area .single_prising .prising_header.pink_header span {
-  color: #FDAE5C;
-}
-
-/* line 57, ../../Arafath/CL/December/233. Startup/HTML/scss/_prising.scss */
-.prising_area .single_prising ul {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-/* line 60, ../../Arafath/CL/December/233. Startup/HTML/scss/_prising.scss */
-.prising_area .single_prising ul li {
-  font-size: 16px;
-  line-height: 30px;
-  color: #727272;
-  margin-bottom: 30px;
-}
-
-/* line 65, ../../Arafath/CL/December/233. Startup/HTML/scss/_prising.scss */
-.prising_area .single_prising ul li:last-child {
-  margin-bottom: 0;
-}
-
-/* line 2, ../../Arafath/CL/December/233. Startup/HTML/scss/_team.scss */
 .team_area {
   padding-top: 155px;
-  padding-bottom: 122px;
+  padding-bottom: 20px;
 }
 
 @media (max-width: 767px) {
   /* line 2, ../../Arafath/CL/December/233. Startup/HTML/scss/_team.scss */
   .team_area {
-    padding-top: 50px;
-    padding-bottom: 20px;
+    padding-top: 0px;
+    padding-bottom: 30px;
   }
 }
 
@@ -3402,7 +2429,11 @@ h4 {
   margin-bottom: 0;
   font-weight: 400;
   color: #707070;
-  font-family: "Muli", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.team_title p {
+  text-align: justify;
 }
 
 /* line 86, ../../Arafath/CL/December/233. Startup/HTML/scss/_team.scss */
@@ -3420,6 +2451,11 @@ h4 {
   padding-bottom: 160px;
 }
 
+.get_in_tauch_area1 {
+  padding-top: 0px;
+  padding-bottom: 80px;
+}
+
 @media (max-width: 767px) {
   /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_getIn_tauch.scss */
   .get_in_tauch_area {
@@ -3428,8 +2464,31 @@ h4 {
   }
 }
 
+  /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_getIn_tauch.scss */
+  .get_in_tauch_area1 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
+
+
 /* line 10, ../../Arafath/CL/December/233. Startup/HTML/scss/_getIn_tauch.scss */
 .get_in_tauch_area .touch_form .single_input input, .get_in_tauch_area .touch_form .single_input textarea {
+  width: 100%;
+  border: 1px solid #C9C9C9;
+  height: 50px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  padding: 20px 16px;
+  margin-bottom: 25px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #000;
+  font-weight: 400;
+}
+
+.get_in_tauch_area1 .touch_form .single_input input, .get_in_tauch_area1 .touch_form .single_input textarea {
   width: 100%;
   border: 1px solid #C9C9C9;
   height: 50px;
@@ -3469,319 +2528,28 @@ h4 {
   text-align: center;
 }
 
-/* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_work.scss */
-.how_we_work_area {
-  position: relative;
-}
-
-/* line 3, ../../Arafath/CL/December/233. Startup/HTML/scss/_work.scss */
-.how_we_work_area.extra_margin_bottom {
-  margin-bottom: 160px;
-}
-
-@media (max-width: 767px) {
-  /* line 3, ../../Arafath/CL/December/233. Startup/HTML/scss/_work.scss */
-  .how_we_work_area.extra_margin_bottom {
-    margin-bottom: 70px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 3, ../../Arafath/CL/December/233. Startup/HTML/scss/_work.scss */
-  .how_we_work_area.extra_margin_bottom {
-    margin-bottom: 100px;
-  }
-}
-
-/* line 12, ../../Arafath/CL/December/233. Startup/HTML/scss/_work.scss */
-.how_we_work_area.extra_margin {
-  margin-top: 160px;
-}
-
-@media (max-width: 767px) {
-  /* line 12, ../../Arafath/CL/December/233. Startup/HTML/scss/_work.scss */
-  .how_we_work_area.extra_margin {
-    margin-top: 70px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 12, ../../Arafath/CL/December/233. Startup/HTML/scss/_work.scss */
-  .how_we_work_area.extra_margin {
-    margin-top: 100px;
-  }
-}
-
-/* line 21, ../../Arafath/CL/December/233. Startup/HTML/scss/_work.scss */
-.how_we_work_area::before {
-  position: absolute;
-  content: '';
-  width: 50%;
-  right: 0;
-  top: 0;
-  height: 100%;
-  background-image: url(../img/work/work.png);
-  background-size: cover;
-  background-position: center center;
-  -webkit-border-radius: 20px 0 0 20px;
-  -moz-border-radius: 20px 0 0 20px;
-  border-radius: 20px 0 0 20px;
-}
-
-@media (max-width: 767px) {
-  /* line 21, ../../Arafath/CL/December/233. Startup/HTML/scss/_work.scss */
-  .how_we_work_area::before {
-    display: none;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 21, ../../Arafath/CL/December/233. Startup/HTML/scss/_work.scss */
-  .how_we_work_area::before {
-    display: none;
-  }
-}
-
-/* line 39, ../../Arafath/CL/December/233. Startup/HTML/scss/_work.scss */
-.how_we_work_area .work_info {
-  padding: 180px 0;
-}
-
-@media (max-width: 767px) {
-  /* line 39, ../../Arafath/CL/December/233. Startup/HTML/scss/_work.scss */
-  .how_we_work_area .work_info {
-    padding: 80px 0;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 39, ../../Arafath/CL/December/233. Startup/HTML/scss/_work.scss */
-  .how_we_work_area .work_info {
-    padding: 100px 0;
-  }
-}
-
-/* line 48, ../../Arafath/CL/December/233. Startup/HTML/scss/_work.scss */
-.how_we_work_area .work_info .section_title .mid_text {
-  font-size: 18px;
-  font-family: "Muli", sans-serif;
-  color: #1F1F1F;
-  font-weight: 400;
-  margin-bottom: 25px;
-}
-
-/* line 55, ../../Arafath/CL/December/233. Startup/HTML/scss/_work.scss */
-.how_we_work_area .work_info .section_title .last_p {
-  font-size: 16px;
+.get_in_tauch_area1 .touch_form .single_input input::placeholder, .get_in_tauch_area .touch_form .single_input textarea::placeholder {
   color: #707070;
-  font-weight: 400;
-}
-
-/* line 61, ../../Arafath/CL/December/233. Startup/HTML/scss/_work.scss */
-.how_we_work_area .work_info .video_watch {
-  margin-top: 37px;
-}
-
-/* line 64, ../../Arafath/CL/December/233. Startup/HTML/scss/_work.scss */
-.how_we_work_area .work_info .video_watch .play_btn a {
-  width: 60px;
-  height: 60px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  background: #367FC1;
   font-size: 14px;
-  text-align: center;
-  line-height: 60px;
-  color: #fff;
-  display: inline-block;
-}
-
-/* line 76, ../../Arafath/CL/December/233. Startup/HTML/scss/_work.scss */
-.how_we_work_area .work_info .video_watch span {
-  font-size: 20px;
-  color: #1F1F1F;
-  font-weight: 400;
   font-family: "Roboto", sans-serif;
-  margin-left: 20px;
-}
-
-/* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_mission.scss */
-.our_mission_area {
-  padding-top: 150px;
-  padding-bottom: 137px;
-}
-
-@media (max-width: 767px) {
-  /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_mission.scss */
-  .our_mission_area {
-    padding-top: 60px;
-    padding-bottom: 30px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_mission.scss */
-  .our_mission_area {
-    padding-top: 100px;
-    padding-bottom: 70px;
-  }
-}
-
-/* line 13, ../../Arafath/CL/December/233. Startup/HTML/scss/_mission.scss */
-.our_mission_area .mission_text h4 {
-  font-size: 24px;
-  color: #367FC1;
   font-weight: 400;
-  font-family: "Roboto", sans-serif;
 }
 
-/* line 21, ../../Arafath/CL/December/233. Startup/HTML/scss/_mission.scss */
-.our_mission_area .mision_info .single_mission {
-  margin-bottom: 15px;
+/* line 27, ../../Arafath/CL/December/233. Startup/HTML/scss/_getIn_tauch.scss */
+.get_in_tauch_area1 .touch_form .single_input input:focus, .get_in_tauch_area .touch_form .single_input textarea:focus {
+  outline: none;
 }
 
-/* line 23, ../../Arafath/CL/December/233. Startup/HTML/scss/_mission.scss */
-.our_mission_area .mision_info .single_mission p {
-  color: #707070;
-  font-size: 16px;
+/* line 31, ../../Arafath/CL/December/233. Startup/HTML/scss/_getIn_tauch.scss */
+.get_in_tauch_area1 .touch_form .single_input textarea {
+  height: 148px;
+  resize: none;
 }
 
-/* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio_details.scss */
-.portfolio_details_banner {
-  background: #1F1F1F;
-  padding-top: 220px;
-  padding-bottom: 470px;
-}
-
-@media (max-width: 767px) {
-  /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio_details.scss */
-  .portfolio_details_banner {
-    padding: 100px 0;
-  }
-}
-
-/* line 9, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio_details.scss */
-.portfolio_details_banner .details_info h3 {
-  font-size: 78px;
-  font-weight: 400;
-  color: #fff;
-  text-align: center;
-  margin-bottom: 62px;
-}
-
-@media (max-width: 767px) {
-  /* line 9, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio_details.scss */
-  .portfolio_details_banner .details_info h3 {
-    font-size: 30px;
-    margin-bottom: 30px;
-  }
-}
-
-@media (max-width: 767px) {
-  /* line 20, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio_details.scss */
-  .portfolio_details_banner .details_info .details_links {
-    display: block !important;
-    text-align: center;
-  }
-}
-
-@media (max-width: 767px) {
-  /* line 25, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio_details.scss */
-  .portfolio_details_banner .details_info .details_links .single_details {
-    margin-bottom: 30px;
-  }
-}
-
-/* line 29, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio_details.scss */
-.portfolio_details_banner .details_info .details_links .single_details span {
-  color: #C9C9C9;
-  font-size: 12px;
-  font-weight: 400;
-  display: block;
-  margin-bottom: 9px;
-  font-family: "Roboto", sans-serif;
-}
-
-/* line 37, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio_details.scss */
-.portfolio_details_banner .details_info .details_links .single_details h4 {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  color: #fff;
-}
-
-/* line 45, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio_details.scss */
-.portfolio_details_banner .details_info .details_links .single_details .social_links ul li {
-  display: inline-block;
-  margin-right: 21px;
-}
-
-@media (max-width: 767px) {
-  /* line 45, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio_details.scss */
-  .portfolio_details_banner .details_info .details_links .single_details .social_links ul li {
-    margin: 0 5px;
-  }
-}
-
-/* line 51, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio_details.scss */
-.portfolio_details_banner .details_info .details_links .single_details .social_links ul li a {
-  color: #fff;
-  font-size: 16px;
-}
-
-/* line 55, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio_details.scss */
-.portfolio_details_banner .details_info .details_links .single_details .social_links ul li a:hover {
-  color: #367FC1;
-}
-
-/* line 67, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio_details.scss */
-.portfolio_details_wrap {
-  padding-bottom: 130px;
-  position: relative;
-  margin-top: -380px;
-}
-
-@media (max-width: 767px) {
-  /* line 67, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio_details.scss */
-  .portfolio_details_wrap {
-    padding-bottom: 60px;
-  }
-}
-
-@media (max-width: 767px) {
-  /* line 67, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio_details.scss */
-  .portfolio_details_wrap {
-    margin-top: 60px;
-  }
-}
-
-/* line 78, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio_details.scss */
-.portfolio_details_wrap .banner img {
+/* line 37, ../../Arafath/CL/December/233. Startup/HTML/scss/_getIn_tauch.scss */
+.get_in_tauch_area1 .touch_form .submit_btn .boxed-btn3 {
   width: 100%;
-}
-
-/* line 82, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio_details.scss */
-.portfolio_details_wrap .details_text {
-  margin-bottom: 70px;
-  margin-top: 80px;
-}
-
-@media (max-width: 767px) {
-  /* line 82, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio_details.scss */
-  .portfolio_details_wrap .details_text {
-    margin: 30px 0;
-  }
-}
-
-/* line 93, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio_details.scss */
-.portfolio_details_wrap .thumbs .single_thumb {
-  margin-bottom: 30px;
-}
-
-/* line 95, ../../Arafath/CL/December/233. Startup/HTML/scss/_portfolio_details.scss */
-.portfolio_details_wrap .thumbs .single_thumb img {
-  width: 100%;
+  text-align: center;
 }
 
 /*=================== contact banner start ====================*/
@@ -3923,7 +2691,7 @@ h4 {
 
 /* line 133, ../../Arafath/CL/December/233. Startup/HTML/scss/_contact.scss */
 .contact-section {
-  padding: 130px 0 100px;
+  padding: 80px 0 100px;
 }
 
 @media (max-width: 991px) {
@@ -4484,55 +3252,6 @@ h6 {
   border-radius: 50%;
 }
 
-/* line 473, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.ordered-list {
-  margin-left: 30px;
-}
-
-/* line 475, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.ordered-list li {
-  list-style-type: decimal-leading-zero;
-  color: #ff5e13;
-  font-weight: 500;
-  line-height: 1.82em !important;
-}
-
-/* line 480, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.ordered-list li span {
-  font-weight: 300;
-  color: #828bb2;
-}
-
-/* line 488, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.ordered-list-alpha li {
-  margin-left: 30px;
-  list-style-type: lower-alpha;
-  color: #ff5e13;
-  font-weight: 500;
-  line-height: 1.82em !important;
-}
-
-/* line 494, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.ordered-list-alpha li span {
-  font-weight: 300;
-  color: #828bb2;
-}
-
-/* line 502, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.ordered-list-roman li {
-  margin-left: 30px;
-  list-style-type: lower-roman;
-  color: #ff5e13;
-  font-weight: 500;
-  line-height: 1.82em !important;
-}
-
-/* line 508, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.ordered-list-roman li span {
-  font-weight: 300;
-  color: #828bb2;
-}
-
 /* line 515, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .single-input {
   display: block;
@@ -4685,298 +3404,6 @@ h6 {
 /* line 632, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .default-switch input:checked + label {
   left: 19px;
-}
-
-/* line 639, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.primary-switch {
-  width: 35px;
-  height: 17px;
-  border-radius: 8.5px;
-  background: #f9f9ff;
-  position: relative;
-  cursor: pointer;
-}
-
-/* line 646, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.primary-switch input {
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-}
-
-/* line 655, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.primary-switch input + label {
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-}
-
-/* line 663, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.primary-switch input + label:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  background: transparent;
-  border-radius: 8.5px;
-  cursor: pointer;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -o-transition: all 0.2s;
-  transition: all 0.2s;
-}
-
-/* line 677, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.primary-switch input + label:after {
-  content: "";
-  position: absolute;
-  top: 1px;
-  left: 1px;
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  background: #fff;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -o-transition: all 0.2s;
-  transition: all 0.2s;
-  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.2);
-  cursor: pointer;
-}
-
-/* line 693, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.primary-switch input:checked + label:after {
-  left: 19px;
-}
-
-/* line 696, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.primary-switch input:checked + label:before {
-  background: #ff5e13;
-}
-
-/* line 704, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.confirm-switch {
-  width: 35px;
-  height: 17px;
-  border-radius: 8.5px;
-  background: #f9f9ff;
-  position: relative;
-  cursor: pointer;
-}
-
-/* line 711, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.confirm-switch input {
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-}
-
-/* line 720, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.confirm-switch input + label {
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-}
-
-/* line 728, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.confirm-switch input + label:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  background: transparent;
-  border-radius: 8.5px;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -o-transition: all 0.2s;
-  transition: all 0.2s;
-  cursor: pointer;
-}
-
-/* line 742, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.confirm-switch input + label:after {
-  content: "";
-  position: absolute;
-  top: 1px;
-  left: 1px;
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  background: #fff;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -o-transition: all 0.2s;
-  transition: all 0.2s;
-  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.2);
-  cursor: pointer;
-}
-
-/* line 758, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.confirm-switch input:checked + label:after {
-  left: 19px;
-}
-
-/* line 761, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.confirm-switch input:checked + label:before {
-  background: #4cd3e3;
-}
-
-/* line 769, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.primary-checkbox {
-  width: 16px;
-  height: 16px;
-  border-radius: 3px;
-  background: #f9f9ff;
-  position: relative;
-  cursor: pointer;
-}
-
-/* line 776, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.primary-checkbox input {
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-}
-
-/* line 785, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.primary-checkbox input + label {
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 3px;
-  cursor: pointer;
-  border: 1px solid #f1f1f1;
-}
-
-/* line 798, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.primary-checkbox input:checked + label {
-  background: url(../img/elements/primary-check.png) no-repeat center center/cover;
-  border: none;
-}
-
-/* line 806, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.confirm-checkbox {
-  width: 16px;
-  height: 16px;
-  border-radius: 3px;
-  background: #f9f9ff;
-  position: relative;
-  cursor: pointer;
-}
-
-/* line 813, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.confirm-checkbox input {
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-}
-
-/* line 822, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.confirm-checkbox input + label {
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 3px;
-  cursor: pointer;
-  border: 1px solid #f1f1f1;
-}
-
-/* line 835, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.confirm-checkbox input:checked + label {
-  background: url(../img/elements/success-check.png) no-repeat center center/cover;
-  border: none;
-}
-
-/* line 843, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.disabled-checkbox {
-  width: 16px;
-  height: 16px;
-  border-radius: 3px;
-  background: #f9f9ff;
-  position: relative;
-  cursor: pointer;
-}
-
-/* line 850, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.disabled-checkbox input {
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-}
-
-/* line 859, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.disabled-checkbox input + label {
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 3px;
-  cursor: pointer;
-  border: 1px solid #f1f1f1;
-}
-
-/* line 871, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.disabled-checkbox input:disabled {
-  cursor: not-allowed;
-  z-index: 3;
-}
-
-/* line 876, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.disabled-checkbox input:checked + label {
-  background: url(../img/elements/disabled-check.png) no-repeat center center/cover;
-  border: none;
 }
 
 /* line 884, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
