@@ -1182,7 +1182,7 @@ h4 {
 .slider_area .single_slider {
   position: relative;
   z-index: 0;
-  height: 900px;
+  height: 600px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -1966,6 +1966,7 @@ h4 {
 /* line 2, ../../Arafath/CL/December/233. Startup/HTML/scss/_tesmonial.scss */
 .testimonial_area {
   padding: 160px 0;
+  margin-bottom: 40px;
   background-image: url(../img/comentarios_empresas.jpg);
   position: relative;
   z-index: 0;
@@ -2132,6 +2133,7 @@ h4 {
 .service_area1 {
   padding-top: 50px;
   padding-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 767px) {
@@ -2446,7 +2448,7 @@ h4 {
 }
 
 /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_getIn_tauch.scss */
-.get_in_tauch_area {
+/* .get_in_tauch_area1 {
   padding-top: 0px;
   padding-bottom: 160px;
 }
@@ -2456,24 +2458,23 @@ h4 {
   padding-bottom: 80px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767px) { */
   /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_getIn_tauch.scss */
-  .get_in_tauch_area {
+  /* .get_in_tauch_area1 {
     padding-top: 70px;
     padding-bottom: 70px;
-  }
-}
+  } */
 
   /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_getIn_tauch.scss */
-  .get_in_tauch_area1 {
-    padding-top: 70px;
+  /* .get_in_tauch_area1 {
+    padding-top: 50px;
     padding-bottom: 70px;
   }
-}
+} */
 
 
 /* line 10, ../../Arafath/CL/December/233. Startup/HTML/scss/_getIn_tauch.scss */
-.get_in_tauch_area .touch_form .single_input input, .get_in_tauch_area .touch_form .single_input textarea {
+/* .get_in_tauch_area .touch_form .single_input input, .get_in_tauch_area .touch_form .single_input textarea {
   width: 100%;
   border: 1px solid #C9C9C9;
   height: 50px;
@@ -2486,8 +2487,8 @@ h4 {
   font-size: 14px;
   color: #000;
   font-weight: 400;
-}
-
+} */
+/* 
 .get_in_tauch_area1 .touch_form .single_input input, .get_in_tauch_area1 .touch_form .single_input textarea {
   width: 100%;
   border: 1px solid #C9C9C9;
@@ -2501,56 +2502,56 @@ h4 {
   font-size: 14px;
   color: #000;
   font-weight: 400;
-}
+} */
 
 /* line 21, ../../Arafath/CL/December/233. Startup/HTML/scss/_getIn_tauch.scss */
-.get_in_tauch_area .touch_form .single_input input::placeholder, .get_in_tauch_area .touch_form .single_input textarea::placeholder {
+/* .get_in_tauch_area .touch_form .single_input input::placeholder, .get_in_tauch_area .touch_form .single_input textarea::placeholder {
   color: #707070;
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-}
+} */
 
 /* line 27, ../../Arafath/CL/December/233. Startup/HTML/scss/_getIn_tauch.scss */
-.get_in_tauch_area .touch_form .single_input input:focus, .get_in_tauch_area .touch_form .single_input textarea:focus {
+/* .get_in_tauch_area .touch_form .single_input input:focus, .get_in_tauch_area .touch_form .single_input textarea:focus {
   outline: none;
-}
+} */
 
 /* line 31, ../../Arafath/CL/December/233. Startup/HTML/scss/_getIn_tauch.scss */
-.get_in_tauch_area .touch_form .single_input textarea {
+/* .get_in_tauch_area .touch_form .single_input textarea {
   height: 148px;
   resize: none;
-}
+} */
 
 /* line 37, ../../Arafath/CL/December/233. Startup/HTML/scss/_getIn_tauch.scss */
-.get_in_tauch_area .touch_form .submit_btn .boxed-btn3 {
+/* .get_in_tauch_area .touch_form .submit_btn .boxed-btn3 {
   width: 100%;
   text-align: center;
-}
+} */
 
-.get_in_tauch_area1 .touch_form .single_input input::placeholder, .get_in_tauch_area .touch_form .single_input textarea::placeholder {
+/* .get_in_tauch_area1 .touch_form .single_input input::placeholder, .get_in_tauch_area .touch_form .single_input textarea::placeholder {
   color: #707070;
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-}
+} */
 
 /* line 27, ../../Arafath/CL/December/233. Startup/HTML/scss/_getIn_tauch.scss */
-.get_in_tauch_area1 .touch_form .single_input input:focus, .get_in_tauch_area .touch_form .single_input textarea:focus {
+/* .get_in_tauch_area1 .touch_form .single_input input:focus, .get_in_tauch_area .touch_form .single_input textarea:focus {
   outline: none;
-}
+} */
 
 /* line 31, ../../Arafath/CL/December/233. Startup/HTML/scss/_getIn_tauch.scss */
-.get_in_tauch_area1 .touch_form .single_input textarea {
+/* .get_in_tauch_area1 .touch_form .single_input textarea {
   height: 148px;
   resize: none;
-}
+} */
 
 /* line 37, ../../Arafath/CL/December/233. Startup/HTML/scss/_getIn_tauch.scss */
-.get_in_tauch_area1 .touch_form .submit_btn .boxed-btn3 {
+/* .get_in_tauch_area1 .touch_form .submit_btn .boxed-btn3 {
   width: 100%;
   text-align: center;
-}
+} */
 
 /*=================== contact banner start ====================*/
 /* line 3, ../../Arafath/CL/December/233. Startup/HTML/scss/_contact.scss */
@@ -2586,14 +2587,17 @@ h4 {
   color: #2a2a2a;
 }
 
+.contact-info p {
+  font-weight: bold;
+}
 /* line 30, ../../Arafath/CL/December/233. Startup/HTML/scss/_contact.scss */
 .contact-info .media-body h3 a:hover {
-  color: #ff5e13;
+  color: black;
 }
 
 /* line 36, ../../Arafath/CL/December/233. Startup/HTML/scss/_contact.scss */
 .contact-info .media-body p {
-  color: #8a8a8a;
+  color:  #367FC1;
 }
 
 /*=================== contact banner end ====================*/
@@ -2608,10 +2612,15 @@ h4 {
 /* line 53, ../../Arafath/CL/December/233. Startup/HTML/scss/_contact.scss */
 .form-contact label {
   font-size: 14px;
+  /* margin-top: 20px ; */
+}
+
+.contact-section p {
+  margin-bottom: 40px;
 }
 
 /* line 57, ../../Arafath/CL/December/233. Startup/HTML/scss/_contact.scss */
-.form-contact .form-group {
+.form-group {
   margin-bottom: 30px;
 }
 
@@ -2691,20 +2700,20 @@ h4 {
 
 /* line 133, ../../Arafath/CL/December/233. Startup/HTML/scss/_contact.scss */
 .contact-section {
-  padding: 80px 0 100px;
+  padding: 80px 0 20px;
 }
 
 @media (max-width: 991px) {
   /* line 133, ../../Arafath/CL/December/233. Startup/HTML/scss/_contact.scss */
   .contact-section {
-    padding: 70px 0 40px;
+    padding: 70px 0 20px;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   /* line 133, ../../Arafath/CL/December/233. Startup/HTML/scss/_contact.scss */
   .contact-section {
-    padding: 80px 0 50px;
+    padding: 80px 0 20px;
   }
 }
 
@@ -2815,7 +2824,7 @@ h6 {
 }
 
 /* line 155, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.genric-btn {
+/* .genric-btn {
   display: inline-block;
   outline: none;
   line-height: 40px;
@@ -2831,43 +2840,35 @@ h6 {
   transition: all 0.3s ease 0s;
 }
 
-/* line 166, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .genric-btn:focus {
   outline: none;
 }
 
-/* line 169, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .genric-btn.e-large {
   padding: 0 40px;
   line-height: 50px;
 }
 
-/* line 173, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .genric-btn.large {
   line-height: 45px;
 }
 
-/* line 176, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .genric-btn.medium {
   line-height: 30px;
 }
 
-/* line 179, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .genric-btn.small {
   line-height: 25px;
 }
 
-/* line 182, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .genric-btn.radius {
   border-radius: 3px;
 }
 
-/* line 185, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .genric-btn.circle {
   border-radius: 20px;
 }
 
-/* line 188, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .genric-btn.arrow {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -2877,178 +2878,153 @@ h6 {
   align-items: center;
 }
 
-/* line 195, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .genric-btn.arrow span {
   margin-left: 10px;
 }
 
-/* line 199, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .genric-btn.default {
   color: #415094;
   background: #f9f9ff;
   border: 1px solid transparent;
 }
 
-/* line 203, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .genric-btn.default:hover {
   border: 1px solid #f9f9ff;
   background: #fff;
 }
 
-/* line 208, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .genric-btn.default-border {
   border: 1px solid #f9f9ff;
   background: #fff;
 }
 
-/* line 211, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .genric-btn.default-border:hover {
   color: #415094;
   background: #f9f9ff;
   border: 1px solid transparent;
 }
 
-/* line 217, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .genric-btn.primary {
   color: #fff;
   background: #ff5e13;
   border: 1px solid transparent;
 }
 
-/* line 221, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .genric-btn.primary:hover {
   color: #ff5e13;
   border: 1px solid #ff5e13;
   background: #fff;
 }
 
-/* line 227, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .genric-btn.primary-border {
   color: #ff5e13;
   border: 1px solid #ff5e13;
   background: #fff;
 }
 
-/* line 231, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .genric-btn.primary-border:hover {
   color: #fff;
   background: #ff5e13;
   border: 1px solid transparent;
 }
 
-/* line 237, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .genric-btn.success {
   color: #fff;
   background: #4cd3e3;
   border: 1px solid transparent;
 }
 
-/* line 241, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .genric-btn.success:hover {
   color: #4cd3e3;
   border: 1px solid #4cd3e3;
   background: #fff;
 }
 
-/* line 247, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .genric-btn.success-border {
   color: #4cd3e3;
   border: 1px solid #4cd3e3;
   background: #fff;
 }
 
-/* line 251, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .genric-btn.success-border:hover {
   color: #fff;
   background: #4cd3e3;
   border: 1px solid transparent;
 }
 
-/* line 257, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .genric-btn.info {
   color: #fff;
   background: #38a4ff;
   border: 1px solid transparent;
 }
 
-/* line 261, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .genric-btn.info:hover {
   color: #38a4ff;
   border: 1px solid #38a4ff;
   background: #fff;
 }
 
-/* line 267, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .genric-btn.info-border {
   color: #38a4ff;
   border: 1px solid #38a4ff;
   background: #fff;
-}
+} */
 
 /* line 271, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.genric-btn.info-border:hover {
+/* .genric-btn.info-border:hover {
   color: #fff;
   background: #38a4ff;
   border: 1px solid transparent;
 }
 
-/* line 277, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .genric-btn.warning {
   color: #fff;
   background: #f4e700;
   border: 1px solid transparent;
 }
 
-/* line 281, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .genric-btn.warning:hover {
   color: #f4e700;
   border: 1px solid #f4e700;
   background: #fff;
 }
 
-/* line 287, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .genric-btn.warning-border {
   color: #f4e700;
   border: 1px solid #f4e700;
   background: #fff;
 }
 
-/* line 291, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .genric-btn.warning-border:hover {
   color: #fff;
   background: #f4e700;
   border: 1px solid transparent;
 }
 
-/* line 297, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .genric-btn.danger {
   color: #fff;
   background: #f44a40;
   border: 1px solid transparent;
 }
 
-/* line 301, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .genric-btn.danger:hover {
   color: #f44a40;
   border: 1px solid #f44a40;
   background: #fff;
 }
 
-/* line 307, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .genric-btn.danger-border {
   color: #f44a40;
   border: 1px solid #f44a40;
   background: #fff;
 }
 
-/* line 311, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .genric-btn.danger-border:hover {
   color: #fff;
   background: #f44a40;
   border: 1px solid transparent;
 }
 
-/* line 317, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .genric-btn.link {
   color: #415094;
   background: #f9f9ff;
@@ -3056,14 +3032,12 @@ h6 {
   border: 1px solid transparent;
 }
 
-/* line 322, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .genric-btn.link:hover {
   color: #415094;
   border: 1px solid #f9f9ff;
   background: #fff;
 }
 
-/* line 328, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .genric-btn.link-border {
   color: #415094;
   border: 1px solid #f9f9ff;
@@ -3071,68 +3045,57 @@ h6 {
   text-decoration: underline;
 }
 
-/* line 333, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .genric-btn.link-border:hover {
   color: #415094;
   background: #f9f9ff;
   border: 1px solid transparent;
 }
 
-/* line 339, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .genric-btn.disable {
   color: #222222, 0.3;
   background: #f9f9ff;
   border: 1px solid transparent;
   cursor: not-allowed;
-}
+} */
 
-/* line 347, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.generic-blockquote {
+/* .generic-blockquote {
   padding: 30px 50px 30px 30px;
   background: #f9f9ff;
   border-left: 2px solid #ff5e13;
 }
 
-/* line 353, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .progress-table-wrap {
   overflow-x: scroll;
 }
 
-/* line 357, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .progress-table {
   background: #f9f9ff;
   padding: 15px 0px 30px 0px;
   min-width: 800px;
 }
 
-/* line 361, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .progress-table .serial {
   width: 11.83%;
   padding-left: 30px;
 }
 
-/* line 365, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .progress-table .country {
   width: 28.07%;
 }
 
-/* line 368, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .progress-table .visit {
   width: 19.74%;
 }
 
-/* line 371, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .progress-table .percentage {
   width: 40.36%;
   padding-right: 50px;
 }
 
-/* line 375, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .progress-table .table-head {
   display: flex;
 }
 
-/* line 377, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .progress-table .table-head .serial,
 .progress-table .table-head .country,
 .progress-table .table-head .visit,
@@ -3143,14 +3106,12 @@ h6 {
   font-weight: 500;
 }
 
-/* line 387, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .progress-table .table-row {
   padding: 15px 0;
   border-top: 1px solid #edf3fd;
   display: flex;
 }
 
-/* line 391, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .progress-table .table-row .serial,
 .progress-table .table-row .country,
 .progress-table .table-row .visit,
@@ -3159,72 +3120,61 @@ h6 {
   align-items: center;
 }
 
-/* line 399, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .progress-table .table-row .country img {
   margin-right: 15px;
 }
 
-/* line 404, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .progress-table .table-row .percentage .progress {
   width: 80%;
   border-radius: 0px;
   background: transparent;
 }
 
-/* line 408, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .progress-table .table-row .percentage .progress .progress-bar {
   height: 5px;
   line-height: 5px;
 }
 
-/* line 411, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .progress-table .table-row .percentage .progress .progress-bar.color-1 {
   background-color: #6382e6;
 }
 
-/* line 414, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .progress-table .table-row .percentage .progress .progress-bar.color-2 {
   background-color: #e66686;
 }
 
-/* line 417, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .progress-table .table-row .percentage .progress .progress-bar.color-3 {
   background-color: #f09359;
 }
 
-/* line 420, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .progress-table .table-row .percentage .progress .progress-bar.color-4 {
   background-color: #73fbaf;
 }
 
-/* line 423, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .progress-table .table-row .percentage .progress .progress-bar.color-5 {
   background-color: #73fbaf;
 }
 
-/* line 426, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .progress-table .table-row .percentage .progress .progress-bar.color-6 {
   background-color: #6382e6;
 }
 
-/* line 429, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .progress-table .table-row .percentage .progress .progress-bar.color-7 {
   background-color: #a367e7;
 }
 
-/* line 432, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .progress-table .table-row .percentage .progress .progress-bar.color-8 {
   background-color: #e66686;
-}
+} */
 
 /* line 441, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.single-gallery-image {
+/* .single-gallery-image {
   margin-top: 30px;
   background-repeat: no-repeat !important;
   background-position: center center !important;
   background-size: cover !important;
   height: 200px;
-}
+} */
 
 /* line 449, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .list-style {
@@ -3311,7 +3261,7 @@ h6 {
 }
 
 /* line 560, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.single-input-primary {
+/* .single-input-primary {
   display: block;
   width: 100%;
   line-height: 40px;
@@ -3319,16 +3269,16 @@ h6 {
   outline: none;
   background: #f9f9ff;
   padding: 0 20px;
-}
+} */
 
 /* line 568, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.single-input-primary:focus {
+/* .single-input-primary:focus {
   outline: none;
   border: 1px solid #ff5e13;
-}
+} */
 
 /* line 574, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.single-input-accent {
+/* .single-input-accent {
   display: block;
   width: 100%;
   line-height: 40px;
@@ -3336,16 +3286,16 @@ h6 {
   outline: none;
   background: #f9f9ff;
   padding: 0 20px;
-}
+} */
 
 /* line 582, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.single-input-accent:focus {
+/* .single-input-accent:focus {
   outline: none;
   border: 1px solid #eb6b55;
-}
+} */
 
 /* line 588, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.single-input-secondary {
+/* .single-input-secondary {
   display: block;
   width: 100%;
   line-height: 40px;
@@ -3353,26 +3303,26 @@ h6 {
   outline: none;
   background: #f9f9ff;
   padding: 0 20px;
-}
+} */
 
 /* line 596, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.single-input-secondary:focus {
+/* .single-input-secondary:focus {
   outline: none;
   border: 1px solid #f09359;
-}
+} */
 
 /* line 602, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.default-switch {
+/* .default-switch {
   width: 35px;
   height: 17px;
   border-radius: 8.5px;
   background: #f9f9ff;
   position: relative;
   cursor: pointer;
-}
+} */
 
 /* line 609, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.default-switch input {
+/* .default-switch input {
   position: absolute;
   left: 0;
   top: 0;
@@ -3382,10 +3332,10 @@ h6 {
   height: 100%;
   opacity: 0;
   cursor: pointer;
-}
+} */
 
 /* line 619, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.default-switch input + label {
+/* .default-switch input + label {
   position: absolute;
   top: 1px;
   left: 1px;
@@ -3399,25 +3349,25 @@ h6 {
   transition: all 0.2s;
   box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.2);
   cursor: pointer;
-}
+} */
 
 /* line 632, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.default-switch input:checked + label {
+/* .default-switch input:checked + label {
   left: 19px;
-}
+} */
 
 /* line 884, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.primary-radio {
+/* .primary-radio {
   width: 16px;
   height: 16px;
   border-radius: 8px;
   background: #f9f9ff;
   position: relative;
   cursor: pointer;
-}
+} */
 
 /* line 891, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.primary-radio input {
+/* .primary-radio input {
   position: absolute;
   left: 0;
   top: 0;
@@ -3426,10 +3376,10 @@ h6 {
   width: 100%;
   height: 100%;
   opacity: 0;
-}
+} */
 
 /* line 900, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.primary-radio input + label {
+/* .primary-radio input + label {
   position: absolute;
   left: 0;
   top: 0;
@@ -3440,26 +3390,26 @@ h6 {
   border-radius: 8px;
   cursor: pointer;
   border: 1px solid #f1f1f1;
-}
+} */
 
 /* line 913, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.primary-radio input:checked + label {
+/* .primary-radio input:checked + label {
   background: url(../img/elements/primary-radio.png) no-repeat center center/cover;
   border: none;
-}
+} */
 
 /* line 921, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.confirm-radio {
+/* .confirm-radio {
   width: 16px;
   height: 16px;
   border-radius: 8px;
   background: #f9f9ff;
   position: relative;
   cursor: pointer;
-}
+} */
 
 /* line 928, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.confirm-radio input {
+/* .confirm-radio input {
   position: absolute;
   left: 0;
   top: 0;
@@ -3468,10 +3418,9 @@ h6 {
   width: 100%;
   height: 100%;
   opacity: 0;
-}
+} */
 
-/* line 937, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.confirm-radio input + label {
+/* .confirm-radio input + label {
   position: absolute;
   left: 0;
   top: 0;
@@ -3482,26 +3431,26 @@ h6 {
   border-radius: 8px;
   cursor: pointer;
   border: 1px solid #f1f1f1;
-}
+} */
 
 /* line 950, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.confirm-radio input:checked + label {
+/* .confirm-radio input:checked + label {
   background: url(../img/elements/success-radio.png) no-repeat center center/cover;
   border: none;
-}
+} */
 
 /* line 958, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.disabled-radio {
+/* .disabled-radio {
   width: 16px;
   height: 16px;
   border-radius: 8px;
   background: #f9f9ff;
   position: relative;
   cursor: pointer;
-}
+} */
 
 /* line 965, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.disabled-radio input {
+/* .disabled-radio input {
   position: absolute;
   left: 0;
   top: 0;
@@ -3510,10 +3459,10 @@ h6 {
   width: 100%;
   height: 100%;
   opacity: 0;
-}
+} */
 
 /* line 974, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.disabled-radio input + label {
+/* .disabled-radio input + label {
   position: absolute;
   left: 0;
   top: 0;
@@ -3524,24 +3473,24 @@ h6 {
   border-radius: 8px;
   cursor: pointer;
   border: 1px solid #f1f1f1;
-}
+} */
 
 /* line 986, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.disabled-radio input:disabled {
+/* .disabled-radio input:disabled {
   cursor: not-allowed;
   z-index: 3;
-}
+} */
 
 /* line 991, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.disabled-radio input:checked + label {
+/* .disabled-radio input:checked + label {
   background: url(../img/elements/disabled-radio.png) no-repeat center center/cover;
   border: none;
-}
+} */
 
 /* line 999, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.default-select {
+/* .default-select {
   height: 40px;
-}
+} */
 
 /* line 1001, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .default-select .nice-select {
@@ -3684,6 +3633,6 @@ h6 {
 }
 
 /* line 1099, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
-.switch-wrap {
+/* .switch-wrap {
   margin-bottom: 10px;
-}
+} */
