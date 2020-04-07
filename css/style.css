@@ -2346,7 +2346,7 @@ h4 {
 /* /-Duplicate Service-areaClientes y single-serviceClientes */
 
 .team_area {
-  padding-top: 155px;
+  padding-top: 80px;
   padding-bottom: 20px;
 }
 
@@ -2452,7 +2452,7 @@ h4 {
 
 /* line 68, ../../Arafath/CL/December/233. Startup/HTML/scss/_team.scss */
 .team_area .single_team .team_title {
-  padding-top: 28px;
+  /* padding-top: 28px; */
 }
 
 /* line 70, ../../Arafath/CL/December/233. Startup/HTML/scss/_team.scss */
@@ -2477,6 +2477,21 @@ h4 {
   text-align: justify;
 }
 
+.map {
+	margin: 50px 0 27px;
+	height: 511px;
+	position: relative;
+	background: #ddd;
+}
+
+.map iframe {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+
 /* line 86, ../../Arafath/CL/December/233. Startup/HTML/scss/_team.scss */
 .team_area .single_team:hover .team_hover {
   -webkit-transform: translateY(0px);
@@ -2485,112 +2500,6 @@ h4 {
   transform: translateY(0px);
   opacity: 1;
 }
-
-/* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_getIn_tauch.scss */
-/* .get_in_tauch_area1 {
-  padding-top: 0px;
-  padding-bottom: 160px;
-}
-
-.get_in_tauch_area1 {
-  padding-top: 0px;
-  padding-bottom: 80px;
-}
-
-@media (max-width: 767px) { */
-  /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_getIn_tauch.scss */
-  /* .get_in_tauch_area1 {
-    padding-top: 70px;
-    padding-bottom: 70px;
-  } */
-
-  /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_getIn_tauch.scss */
-  /* .get_in_tauch_area1 {
-    padding-top: 50px;
-    padding-bottom: 70px;
-  }
-} */
-
-
-/* line 10, ../../Arafath/CL/December/233. Startup/HTML/scss/_getIn_tauch.scss */
-/* .get_in_tauch_area .touch_form .single_input input, .get_in_tauch_area .touch_form .single_input textarea {
-  width: 100%;
-  border: 1px solid #C9C9C9;
-  height: 50px;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  border-radius: 30px;
-  padding: 20px 16px;
-  margin-bottom: 25px;
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  color: #000;
-  font-weight: 400;
-} */
-/* 
-.get_in_tauch_area1 .touch_form .single_input input, .get_in_tauch_area1 .touch_form .single_input textarea {
-  width: 100%;
-  border: 1px solid #C9C9C9;
-  height: 50px;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  border-radius: 30px;
-  padding: 20px 16px;
-  margin-bottom: 25px;
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  color: #000;
-  font-weight: 400;
-} */
-
-/* line 21, ../../Arafath/CL/December/233. Startup/HTML/scss/_getIn_tauch.scss */
-/* .get_in_tauch_area .touch_form .single_input input::placeholder, .get_in_tauch_area .touch_form .single_input textarea::placeholder {
-  color: #707070;
-  font-size: 14px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-} */
-
-/* line 27, ../../Arafath/CL/December/233. Startup/HTML/scss/_getIn_tauch.scss */
-/* .get_in_tauch_area .touch_form .single_input input:focus, .get_in_tauch_area .touch_form .single_input textarea:focus {
-  outline: none;
-} */
-
-/* line 31, ../../Arafath/CL/December/233. Startup/HTML/scss/_getIn_tauch.scss */
-/* .get_in_tauch_area .touch_form .single_input textarea {
-  height: 148px;
-  resize: none;
-} */
-
-/* line 37, ../../Arafath/CL/December/233. Startup/HTML/scss/_getIn_tauch.scss */
-/* .get_in_tauch_area .touch_form .submit_btn .boxed-btn3 {
-  width: 100%;
-  text-align: center;
-} */
-
-/* .get_in_tauch_area1 .touch_form .single_input input::placeholder, .get_in_tauch_area .touch_form .single_input textarea::placeholder {
-  color: #707070;
-  font-size: 14px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-} */
-
-/* line 27, ../../Arafath/CL/December/233. Startup/HTML/scss/_getIn_tauch.scss */
-/* .get_in_tauch_area1 .touch_form .single_input input:focus, .get_in_tauch_area .touch_form .single_input textarea:focus {
-  outline: none;
-} */
-
-/* line 31, ../../Arafath/CL/December/233. Startup/HTML/scss/_getIn_tauch.scss */
-/* .get_in_tauch_area1 .touch_form .single_input textarea {
-  height: 148px;
-  resize: none;
-} */
-
-/* line 37, ../../Arafath/CL/December/233. Startup/HTML/scss/_getIn_tauch.scss */
-/* .get_in_tauch_area1 .touch_form .submit_btn .boxed-btn3 {
-  width: 100%;
-  text-align: center;
-} */
 
 /*=================== contact banner start ====================*/
 /* line 3, ../../Arafath/CL/December/233. Startup/HTML/scss/_contact.scss */
