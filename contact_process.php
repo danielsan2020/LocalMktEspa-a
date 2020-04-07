@@ -1,37 +1,83 @@
 <?php
 
-    $to = "spn8@spondonit.com";
-    $from = $_REQUEST['email'];
-    $name = $_REQUEST['name'];
-    $subject = $_REQUEST['subject'];
-    $number = $_REQUEST['number'];
-    $cmessage = $_REQUEST['message'];
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-    $headers = "From: $from";
-	$headers = "From: " . $from . "\r\n";
-	$headers .= "Reply-To: ". $from . "\r\n";
-	$headers .= "MIME-Version: 1.0\r\n";
-	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
+        // access
+        $secretKey = '___enter_secret_key___';
+        $captcha = $_POST['g-recaptcha-response'];
 
-    $subject = "You have a message from your Bitmap Photography.";
+        if(!$captcha){
+          echo '<p class="alert alert-warning">Por favor presiona el captcha.</p>';
+          exit;
+        }
 
-    $logo = 'img/logo.png';
-    $link = '#';
+        $mail_to = "info@local-marketing.es";
+        
+        # Sender Data
+        $subject = trim($_POST["subject"]);
+        $name = str_replace(array("\r","\n"),array(" "," ") , strip_tags(trim($_POST["name"])));
+        $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
+		$phone = trim($_POST["phone"]);
+		$city = trim($_POST["city"]);
+		$option = trim($_POST["option"])
+			switch ($option) {
+				case '1':
+				$mail_to = 'info@local-marketing.es';
+					break; 
+				case '2':
+				$mail_to = 'info@local-marketing.es';
+					break;
+				case '3':
+				$mail_to = 'info@local-marketing.es';
+					break;
+				case '4':
+				$mail_to = 'info@local-marketing.es';
+					break;
+		$message = trim($_POST["message"]);
+		
+        
+        if ( empty($name) OR !filter_var($email, FILTER_VALIDATE_EMAIL) OR empty($subject) OR empty($message)) {
+            # Set a 400 (bad request) response code and exit.
+            http_response_code(400);
+            echo '<p class="alert alert-warning">Por favor completa los campos necesarios.</p>';
+            exit;
+        }
 
-	$body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Express Mail</title></head><body>";
-	$body .= "<table style='width: 100%;'>";
-	$body .= "<thead style='text-align: center;'><tr><td style='border:none;' colspan='2'>";
-	$body .= "<a href='{$link}'><img src='{$logo}' alt=''></a><br><br>";
-	$body .= "</td></tr></thead><tbody><tr>";
-	$body .= "<td style='border:none;'><strong>Name:</strong> {$name}</td>";
-	$body .= "<td style='border:none;'><strong>Email:</strong> {$from}</td>";
-	$body .= "</tr>";
-	$body .= "<tr><td style='border:none;'><strong>Subject:</strong> {$csubject}</td></tr>";
-	$body .= "<tr><td></td></tr>";
-	$body .= "<tr><td colspan='2' style='border:none;'>{$cmessage}</td></tr>";
-	$body .= "</tbody></table>";
-	$body .= "</body></html>";
+        $ip = $_SERVER['REMOTE_ADDR'];
+        $response=file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".$secretKey."&response=".$captcha."&remoteip=".$ip);
+        $responseKeys = json_decode($response,true);
 
-    $send = mail($to, $subject, $body, $headers);
+        if(intval($responseKeys["success"]) !== 1) {
+          echo '<p class="alert alert-warning">Por favor presiona el captcha.</p>';
+        } else {
+            # Mail Content
+            $content = "Name: $name\n";
+            $content .= "Email: $email\n\n";
+			$content .= "Phone: $phone\n";
+			$content .= "City: $city\n";
+			$content .= "Option: $option\n";
+            $content .= "Message:\n$message\n";
+
+            # email headers.
+            $headers = "From: $name <$email>";
+
+            # Send the email.
+            $success = mail($mail_to, $subject, $content, $headers);
+            if ($success) {
+                # Set a 200 (okay) response code.
+                http_response_code(200);
+                echo '<p class="alert alert-success">Gracias! Tu mensaje fue enviado.</p>';
+            } else {
+                # Set a 500 (internal server error) response code.
+                http_response_code(500);
+                echo '<p class="alert alert-warning">Oops! Algo salió mal, revisa de nuevo.</p>';
+            }
+        }
+
+    } else {
+        # Not a POST request, set a 403 (forbidden) response code.
+        http_response_code(403);
+        echo '<p class="alert alert-warning">Hay algún problema en tu registro, inténtalo de nuevo.</p>';
+    }
 
 ?>

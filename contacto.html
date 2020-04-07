@@ -105,83 +105,85 @@
           </div>
 
           <div class="col-lg-8">
-            <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm"
-              novalidate="novalidate">
+            <form class="form-contact contact_form" action="contact_process.php" method="post">
               <div class="row">
 
+                <!-- form message -->
+                <div class="row">
+                  <div class="col-12">
+                      <div class="contact__msg" style="display: none">
+                          <p>Tu mensaje ha sido enviado, ¡Gracias!</p>
+                      </div>
+                  </div>
+              </div>
+              <!-- end message -->
+
                 <div class="col-sm-6">
                   <div class="form-group">
-                    <input class="form-control" name="name" id="name" type="text" onfocus="this.placeholder = ''"
-                      onblur="this.placeholder = 'Nombre'" placeholder='Nombre'>
+                    <input name="name" type="text" class="form-control" placeholder="Nombre" required>
                   </div>
                 </div>
 
                 <div class="col-sm-6">
                   <div class="form-group">
-                    <input class="form-control" name="name" id="name" type="text" onfocus="this.placeholder = ''"
-                      onblur="this.placeholder = 'Ciudad'" placeholder='Ciudad'>
+                    <input name="city" type="text" class="form-control" placeholder="Ciudad" required>
                   </div>
                 </div>
 
                 <div class="col-sm-6">
                   <div class="form-group">
-                    <input class="form-control" name="email" id="email" type="email" onfocus="this.placeholder = ''"
-                      onblur="this.placeholder = 'Mail'" placeholder='Mail'>
+                    <input name="email" type="email" class="form-control" placeholder="Email" required>
                   </div>
                 </div>
 
                 <div class="col-sm-6">
                   <div class="form-group">
-                    <input class="form-control" name="name" id="name" type="text" onfocus="this.placeholder = ''"
-                      onblur="this.placeholder = 'Teléfono'" placeholder='Teléfono'>
+                    <input name="phone" type="tel" class="form-control" placeholder="Teléfono">
                   </div>
                 </div>
 
                 <div class="col-sm-6"> ¿Dónde nos conoció?
                   <div class="form-group">
-                    <select class="form-control selectpicker multipleOptions" name="senderMeet" id="senderMeet"
-                      type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = ''" placeholder=''>
-                      <label></label>
-                      <option value="senderMeet1">Google</option>
-                      <option value="senderMeet2">Referido amig@</option>
-                      <option value="senderMeet3">Páginas amarillas</option>
-                      <option value="senderMeet4">Otros</option>
+                    <select class="form-control" name="option">
+                      <option value="" disabled selected>Elige una opción</option>
+                      <option value="1">Google</option>
+                      <option value="2">Referido amig@</option>
+                      <option value="3">Páginas amarillas</option>
+                      <option value="4">Otros</option>
                     </select>
                   </div>
                 </div>
 
                 <div class="col-sm-6">
                   <div class="form-group">
-                    Asunto<input class="form-control" name="subject" id="subject" type="text"
-                      onfocus="this.placeholder = ''" onblur="this.placeholder = ''" placeholder=''>
+                    Asunto<input class="form-control" name="subject" type="text" required>
                   </div>
                 </div>
 
-                <div class="col-12">
+                <div class="col">
                   <div class="form-group">
-                    <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9"
-                      onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'"
-                      placeholder='Mensaje'></textarea>
+                    <textarea class="form-control w-100" name="message" cols="30" rows="9"
+                      placeholder='Mensaje' required></textarea>
                   </div>
                 </div>
 
                 <div class="col-md-12 custom-control custom-checkbox">
-                  <input type="checkbox" class="custom-control-input" id="defaultUnchecked">
+                  <input type="checkbox" class="custom-control-input" id="defaultUnchecked" required>
                   <label class="custom-control-label" for="defaultUnchecked">He leído y acepto la
-                    <a class="text-reset" href="#" title="Politica de privacidad" target="_blank"><b> Política de
-                        privacidad</b>.</label>
+                    <a class="text-reset" href="#" target="_blank"><b> Política de privacidad</b>.</label>
+                </div>
+                <br>
+                <div class="col-sm-6 form-group">
+                  <div class="g-recaptcha" data-sitekey="___enter_site_key___">
+                  </div>
                 </div>
 
-                <!-- <form action="?" method="POST">
-                  <div class="g-recaptcha" data-sitekey="your_site_key"></div>
-                </form> -->
-
               </div>
-              <div class="form-group mt-3">
+              <div class="col-sm-6 form-group">
                 <button type="submit" class="button btn_4 boxed-btn">Enviar mensaje</button>
               </div>
-            </form>
           </div>
+          <!-- TERMINO DE FORMULARIO -->
 
           <div class="col-lg-4">
             <div class="media contact-info">
@@ -219,15 +221,14 @@
       </div>
   </section>
   <div class="container mb-4">
-  <div class="row">
-    <col class="col">
-  <iframe
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d200139.735907059!2d-0.5767232706883042!3d38.39100894164659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6235da3b9dab4b%3A0x1d7da872ac0b81e3!2sAlicante%2C%20Spain!5e0!3m2!1sen!2smx!4v1585849825803!5m2!1sen!2smx"
-    width="1000" height="480" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-    tabindex="0">
-  </iframe>
+    <div class="row">
+      <col class="col">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d200139.735907059!2d-0.5767232706883042!3d38.39100894164659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6235da3b9dab4b%3A0x1d7da872ac0b81e3!2sAlicante%2C%20Spain!5e0!3m2!1sen!2smx!4v1585849825803!5m2!1sen!2smx"
+        width="1000" height="480" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+      </iframe>
+    </div>
   </div>
-</div>
 
 
 
@@ -327,8 +328,9 @@
   <script src="js/jquery.ajaxchimp.min.js"></script>
   <script src="js/jquery.form.js"></script>
   <script src="js/jquery.validate.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="js/mail-script.js"></script>
-  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <script src='https://www.google.com/recaptcha/api.js'></script>
 
   <script src="js/main.js"></script>
 </body>

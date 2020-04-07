@@ -193,6 +193,15 @@ h4 {
   color: #1F1F1F;
 }
 
+/* .PorqueLocal1 {
+  background-image: url(../img/banner/googleads1.jpg);
+  /* background-color: #1F1F1F; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #1F1F1F;
+  /* opacity: 0.8; */
+} */
+
 /* line 121, ../../Arafath/CL/December/233. Startup/HTML/scss/theme-default.scss */
 .black-bg {
   background: #020c26 !important;
@@ -1963,36 +1972,6 @@ h4 {
   opacity: .7;
 }
 
-/* line 2, ../../Arafath/CL/December/233. Startup/HTML/scss/_tesmonial.scss */
-.testimonial_area {
-  padding: 160px 0;
-  margin-bottom: 40px;
-  background-image: url(../img/comentarios_empresas.jpg);
-  position: relative;
-  z-index: 0;
-  background-size: cover;
-  background-position: center center;
-}
-
-/* line 9, ../../Arafath/CL/December/233. Startup/HTML/scss/_tesmonial.scss */
-.testimonial_area:before {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  z-index: -1;
-  content: '';
-  background: #1F1F1F;
-  opacity: .6;
-}
-
-@media (max-width: 767px) {
-  /* line 2, ../../Arafath/CL/December/233. Startup/HTML/scss/_tesmonial.scss */
-  .testimonial_area {
-    padding: 50px 0;
-  }
-}
 
 /* line 24, ../../Arafath/CL/December/233. Startup/HTML/scss/_tesmonial.scss */
 .testimonial_area .single_testmonial p {
@@ -2305,6 +2284,66 @@ h4 {
 }
 
 /* /-Duplicate Service-area3 y single-service */
+
+/* Duplicate Service-areaClientes y single-serviceClientes */
+.service_areaClientes {
+  padding-top: 50px;
+  padding-bottom: 0px;
+  margin-bottom: 20px;
+  
+}
+
+@media (max-width: 767px) {
+  .service_areaClientes {
+    padding-bottom: 40px;
+    padding-top: 50px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .service_areaClientes {
+    padding-bottom: 40px;
+  }
+}
+
+.service_areaClientes .single_serviceClientes {
+  padding: 48px 35px 45px 35px;
+  border: 2px solid #E8E8E8;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  margin-bottom: 0px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .service_areaClientes .single_serviceClientes {
+    padding: 30px 20px;
+  }
+}
+
+/* .service_areaClientes .single_serviceClientes h3 {
+  font-size: 24px;
+  font-weight: 400;
+  color: black;
+  margin-top: 29px;
+  margin-bottom: 13px;
+} */
+
+/* @media (min-width: 768px) and (max-width: 991px) {
+  .service_areaClientes .single_serviceClientes h3 {
+    font-size: 22px;
+  }
+} */
+
+/* .service_areaClientes .single_serviceClientes:hover {
+  border: 2px solid red;
+} */
+
+/* /-Duplicate Service-areaClientes y single-serviceClientes */
 
 .team_area {
   padding-top: 155px;
