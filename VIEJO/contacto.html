@@ -106,7 +106,6 @@
 
           <div class="col-lg-8">
             <form class="form-contact contact_form" action="contact_process.php" method="post">
-              <input type="hidden" name="token" id="token">
               <div class="row">
 
                 <!-- form message -->
@@ -173,6 +172,11 @@
                   <label class="custom-control-label" for="defaultUnchecked">He leído y acepto la
                     <a class="text-reset" href="#" target="_blank"><b> Política de privacidad</b>.</label>
                 </div>
+                <br>
+                <div class="col-sm-6 form-group">
+                  <div class="g-recaptcha" data-sitekey="___enter_site_key___">
+                  </div>
+                </div>
 
               </div>
               <div class="col-sm-6 form-group">
@@ -223,8 +227,6 @@
       </div>
     </div>
   </section>
-
-
 
   <!-- ================ contact section end ================= -->
 
@@ -314,27 +316,15 @@
   <script src="js/gijgo.min.js"></script>
 
   <!--contact js-->
- 
+  <script src="js/contact.js"></script>
   <script src="js/jquery.ajaxchimp.min.js"></script>
   <script src="js/jquery.form.js"></script>
   <script src="js/jquery.validate.min.js"></script>
-  <!--script src="https://code.jquery.com/jquery-3.2.1.min.js"></script-->
-  <script src="js/contact.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="js/mail-script.js"></script>
-
- <script src="https://www.google.com/recaptcha/api.js?render=__CLAVE PUBLICA__"></script>
-<script>
-grecaptcha.ready(function() {
-    grecaptcha.execute('__CLAVE PUBLICA__', {action: 'homepage'}).then(function(token) {
-       console.log(token);
-       document.getElementById("token").value = token;
-    });
-});
-</script>
+  <script src='https://www.google.com/recaptcha/api.js'></script>
 
   <script src="js/main.js"></script>
-
-
 </body>
 
 </html>
