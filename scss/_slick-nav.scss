@@ -34,10 +34,10 @@
             }
             i{
                 @media #{$mobile_device} {
-                    display: none;
+                    // display: none;
                 }
                 @media #{$tablet_device} {
-                    display: none;
+                    // display: none;
                 }
             }
         }
