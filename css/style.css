@@ -162,7 +162,52 @@ h4 {
 .DescripcionSomos {
   padding-top: 40px;
 }
+/* Mis cambios */
+/* Menú icon */
+.menu-icon .icon-bars {
+  color: #fff;
+  font-size: 50px;
+  cursor: pointer;
+}
 
+#navbarNav {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 100;
+  left: 0;
+  top: 95px;
+  background-color: #1F1F1F;
+  border-top: 2px solid #fff;
+}
+/* Menu */
+.main-header-area {
+  position: relative;
+}
+.none {
+  display: none;
+}
+@media (min-width: 762px) {
+  .container-menu {
+    display: block !important;
+  }
+  .menu-icon .icon-bars {
+    display: none;
+  }
+  #navbarNav {
+    flex-direction: row;
+    position: relative;
+    border-top: 0;
+    top: 0;
+    background-color: inherit;
+  }
+  .none {
+    display: block !important;
+  }
+}
+
+/* fin de mis cambios */
 .PorqueLocal {
   background-image: url(../img/comentarios_empresas.jpg);
   background-repeat:no-repeat;
@@ -1043,7 +1088,7 @@ h4 {
   background-position: center center;
 }
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .slider_area .single_slider {
     height: 500px;
   }
@@ -1053,7 +1098,7 @@ h4 {
   .slider_area .single_slider {
     height: 620px;
   }
-}
+} */
 
 .slider_area .single_slider.about_banner.overlay::before {
   opacity: .5;
@@ -1062,7 +1107,7 @@ h4 {
 .slider_area .single_slider .slider_text h1 {
   color: #FFF;
   font-family: "Roboto", sans-serif;
-  font-size: 78px;
+  font-size: 40px;
   font-weight: 400;
   line-height: 84px;
   margin-bottom: 30px;
@@ -1112,6 +1157,7 @@ h4 {
   margin-bottom: -1px;
 }
 
+/* Esto es redundante ya pusiste font-size: 16px desde 726px */
 @media (min-width: 992px) and (max-width: 1200px) {
   .slider_area .single_slider .slider_text span {
     font-size: 16px;
