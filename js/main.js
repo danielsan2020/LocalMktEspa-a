@@ -1,3 +1,11 @@
+const bntIcon = document.querySelector('.icon-bars');
+
+bntIcon.addEventListener('click', () => {
+const menu = document.querySelector('.container-menu');
+console.log('hola');
+menu.classList.toggle('none');
+})
+
 (function ($) {
 "use strict";
 // TOP Menu Sticky
@@ -16,6 +24,8 @@ $(window).on('scroll', function () {
 
 
 $(document).ready(function(){
+
+  
 
 // mobile_menu
 var menu = $('ul#navigation');
