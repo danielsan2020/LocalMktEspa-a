@@ -31,31 +31,43 @@
   <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/slicknav.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/icons/styles.css">
   <link rel="stylesheet" href="css/responsive.css">
+  <script>
+    document.addEventListener('load', () => {
+      const bntIcon = document.querySelector('.icon-bars');
 
+      bntIcon.addEventListener('click', () => {
+        const menu = document.querySelector('.container-menu');
+        console.log('hola');
+        menu.classList.toggle('d-none');
+      })
+    })
+
+  </script>
 </head>
 
 <body>
 
   <!-- header-start -->
   <header>
-    <div class="header-area ">
+    <div class="header-area">
       <div id="sticky-header" class="main-header-area">
         <div class="container-fluid p-0">
-          <div class="row align-items-center no-gutters">
-            <div class="col-xl-2 col-lg-2">
+          <div class="row align-items-center no-gutters justify-content-between">
+            <div class="col-2">
               <div class="logo-img">
-                <a href="index.html">
-                  <img src="img/logotipos/logolocalmarketingsintexto.png" height="65px" width="40px"
-                    alt="Local Marketing España">
+                <a class="navbar-brand" href="index.html"><img src="img/logotipos/logolocalmarketingsintexto.png"
+                    height="65px" width="40px" alt="Local Marketing España">
                 </a>
               </div>
             </div>
-            <div class="col-xl-8 col-lg-8">
-              <div class="main-menu d-lg-block text-center">
+
+            <div class="container-menu none">
+              <div class="main-menu text-center">
                 <nav>
-                  <ul id="navigation">
-                    <li><a class="active" href="somos.html">Quienes somos</a></li>
+                  <ul id="navbarNav">
+                    <li><a class="active" href="./somos.html">Quienes somos</a></li>
                     <li><a href="./web.html">Diseño web</a></li>
                     <li><a href="./SEO.html">Posicionamiento SEO</a></li>
                     <li><a href="./contacto.html">Contacto</a></li>
@@ -63,7 +75,10 @@
                 </nav>
               </div>
             </div>
-            <div class="col-lg-2 d-none d-lg-block">
+            <div class="menu-icon">
+              <i class="icon-bars"></i>
+            </div>
+            <div class="col-md-2 d-none d-lg-block">
               <div class="log_chat_area d-flex align-items-end">
                 <span style='font-size:35px;'>&#128242;</span>&nbsp;&nbsp;<a href="tel: 649 094 476" data-scroll-nav="0"
                   class="say_hi">649 094 476</a>
@@ -72,7 +87,6 @@
           </div>
         </div>
       </div>
-    </div>
     </div>
   </header>
   <!-- header-end -->
@@ -112,12 +126,12 @@
                 <!-- form message -->
                 <div class="row">
                   <div class="col-12">
-                      <div class="contact__msg" style="display: none">
-                          <p>Tu mensaje ha sido enviado, ¡Gracias!</p>
-                      </div>
+                    <div class="contact__msg" style="display: none">
+                      <p>Tu mensaje ha sido enviado, ¡Gracias!</p>
+                    </div>
                   </div>
-              </div>
-              <!-- end message -->
+                </div>
+                <!-- end message -->
 
                 <div class="col-sm-6">
                   <div class="form-group">
@@ -130,7 +144,7 @@
                     <input name="city" type="text" class="form-control" placeholder="Ciudad" required>
                   </div>
                 </div>
-                
+
                 <div class="col-sm-6">
                   <div class="form-group">
                     <input name="email" type="email" class="form-control" placeholder="Email" required>
@@ -163,8 +177,8 @@
 
                 <div class="col">
                   <div class="form-group">
-                    <textarea class="form-control w-100" name="message" cols="30" rows="9"
-                      placeholder='Mensaje' required></textarea>
+                    <textarea class="form-control w-100" name="message" cols="30" rows="9" placeholder='Mensaje'
+                      required></textarea>
                   </div>
                 </div>
 
@@ -176,20 +190,20 @@
 
               </div>
               <div class="col-sm-6 form-group">
-                <button type="submit" class="button btn_4 boxed-btn">Enviar mensaje</button>
+                <button type="submit" class="button btn_4 boxed-btn mt-3">Enviar mensaje</button>
               </div>
           </div>
           <!-- TERMINO DE FORMULARIO -->
 
           <div class="col-lg-4">
             <div class="media contact-info">
-              <span class="contact-info__icon"><i class="ti-tablet"></i></span>
+              <span class="contact-info__icon"></span>
               <div class="media-body">
                 <a href="tel: 649 094 476">649 094 476</a>
                 <p>Comercial</p>
               </div>
               <div class="media contact-info">
-                <span class="contact-info__icon"><i class="ti-tablet"></i></span>
+                <span class="contact-info__icon"></span>
                 <div class="media-body">
                   <a href="tel: 603 788 063">603 788 063</a>
                   <p>Informática</p>
@@ -198,14 +212,14 @@
             </div>
 
             <div class="media contact-info">
-              <span class="contact-info__icon"><i class="ti-email"></i></span>
+              <span class="contact-info__icon"></span>
               <div class="media-body">
                 <a href="mailto:info@local-marketing.es">info@local-marketing.es</a>
               </div>
             </div>
 
             <div class="media contact-info">
-              <span class="contact-info__icon"><i class="ti-email"></i></span>
+              <span class="contact-info__icon"></span>
               <div class="media-body">
                 <a href="mailto:juangarcia@local-marketing.es">juangarcia@local-marketing.es</a>
               </div>
@@ -313,28 +327,25 @@
   <script src="js/plugins.js"></script>
   <script src="js/gijgo.min.js"></script>
 
-  <!--contact js-->
- 
-  <script src="js/jquery.ajaxchimp.min.js"></script>
-  <script src="js/jquery.form.js"></script>
-  <script src="js/jquery.validate.min.js"></script>
-  <!--script src="https://code.jquery.com/jquery-3.2.1.min.js"></script-->
-  <script src="js/contact.js"></script>
-  <script src="js/mail-script.js"></script>
+    <!--contact js-->
+    <script src="js/contact.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        
+            const bntIcon = document.querySelector('.icon-bars');
 
- <script src="https://www.google.com/recaptcha/api.js?render=__CLAVE PUBLICA__"></script>
-<script>
-grecaptcha.ready(function() {
-    grecaptcha.execute('__CLAVE PUBLICA__', {action: 'homepage'}).then(function(token) {
-       console.log(token);
-       document.getElementById("token").value = token;
-    });
-});
-</script>
-
-  <script src="js/main.js"></script>
-
-
+            bntIcon.addEventListener('click', () => {
+            const menu = document.querySelector('.container-menu');
+            console.log('hola');
+            menu.classList.toggle('none');
+            })
+        
+        
+    </script>
 </body>
 
 </html>

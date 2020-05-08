@@ -162,11 +162,11 @@ h4 {
 .DescripcionSomos {
   padding-top: 40px;
 }
-/* Mis cambios */
+
 /* Menú icon */
 .menu-icon .icon-bars {
   color: #fff;
-  font-size: 50px;
+  font-size: 30px;
   cursor: pointer;
 }
 
@@ -181,20 +181,25 @@ h4 {
   background-color: #1F1F1F;
   border-top: 2px solid #fff;
 }
+
 /* Menu */
 .main-header-area {
   position: relative;
 }
+
 .none {
   display: none;
 }
+
 @media (min-width: 762px) {
   .container-menu {
     display: block !important;
   }
+
   .menu-icon .icon-bars {
     display: none;
   }
+
   #navbarNav {
     flex-direction: row;
     position: relative;
@@ -202,12 +207,13 @@ h4 {
     top: 0;
     background-color: inherit;
   }
+
   .none {
     display: block !important;
   }
+
 }
 
-/* fin de mis cambios */
 .PorqueLocal {
   background-image: url(../img/comentarios_empresas.jpg);
   background-repeat:no-repeat;
@@ -761,17 +767,7 @@ h4 {
 }
 
 /* ---------------------------------------------------- */
-/* @media (max-width: 767px) {
-  .slicknav_menu .slicknav_nav a i {
-    display: none;
-  }
-} */
-
-/* ---------------------------------------------------- */
 @media (min-width: 768px) and (max-width: 991px) {
-  /* .slicknav_menu .slicknav_nav a i {
-    display: none;
-  } */
 
 .slicknav_menu .slicknav_nav .slicknav_btn {
   background-color: transparent;
@@ -827,6 +823,7 @@ h4 {
 }
 
 }
+
 /* ---------------------------------------------------- */
 
 .header-area {
@@ -867,12 +864,6 @@ h4 {
     padding: 10px 10px;
   }
 }
-
-
-/* .header-area .main-header-area {
-  padding: 0 100px;
-} */
-
 
 @media (min-width: 992px) and (max-width: 1200px) {
   .header-area .main-header-area {
@@ -1088,17 +1079,6 @@ h4 {
   background-position: center center;
 }
 
-/* @media (max-width: 767px) {
-  .slider_area .single_slider {
-    height: 500px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  .slider_area .single_slider {
-    height: 620px;
-  }
-} */
 
 .slider_area .single_slider.about_banner.overlay::before {
   opacity: .5;
@@ -1107,9 +1087,9 @@ h4 {
 .slider_area .single_slider .slider_text h1 {
   color: #FFF;
   font-family: "Roboto", sans-serif;
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 400;
-  line-height: 84px;
+  line-height: 60px;
   margin-bottom: 30px;
 }
 
@@ -1155,13 +1135,6 @@ h4 {
   left: -67px;
   top: 50%;
   margin-bottom: -1px;
-}
-
-/* Esto es redundante ya pusiste font-size: 16px desde 726px */
-@media (min-width: 992px) and (max-width: 1200px) {
-  .slider_area .single_slider .slider_text span {
-    font-size: 16px;
-  }
 }
 
 @media (max-width: 767px) {
@@ -1277,100 +1250,6 @@ h4 {
   font-weight: 400;
   margin-bottom: 25px;
 }
-
-/* .gallery_area {
-  padding-top: 150px;
-  padding-bottom: 150px;
-}
-
-@media (max-width: 767px) {
-  .gallery_area {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  .gallery_area {
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
-}
-
-.gallery_area .single-gallery {
-  overflow: hidden;
-  position: relative;
-}
-
-.gallery_area .single-gallery img {
-  width: 100%;
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-} */
-/* 
-.gallery_area .single-gallery .gallery_hover {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  display: table;
-  text-align: center;
-  background: rgba(40, 174, 96, 0.7);
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
-  opacity: 0;
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-  visibility: hidden;
-} */
-
-/* .gallery_area .single-gallery .gallery_hover .hover_inner {
-  display: table-cell;
-  vertical-align: middle;
-}
-
-.gallery_area .single-gallery .gallery_hover .hover_inner h3 {
-  font-size: 22px;
-  color: #fff;
-  font-weight: 400;
-}
-
-.gallery_area .single-gallery .gallery_hover .hover_inner span {
-  color: #fff;
-  font-size: 14px;
-  font-weight: 300;
-}
-
-.gallery_area .single-gallery:hover .gallery_hover {
-  -webkit-transform: translateX(0%);
-  -moz-transform: translateX(0%);
-  -ms-transform: translateX(0%);
-  transform: translateX(0%);
-  visibility: visible;
-  opacity: 1;
-}
-
-.gallery_area .single-gallery:hover img {
-  -webkit-transform: scale(1.05);
-  -moz-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
-}
-
-.gallery_area .More_Works_btn {
-  margin-top: 40px;
-} */
 
 .mt-50 {
   margin-top: 50px;
@@ -1586,7 +1465,6 @@ h4 {
   color: #fff;
   font-weight: 400;
   margin-bottom: 0;
-  /* text-transform: capitalize; */
   font-family: "Roboto", sans-serif;
 }
 
@@ -1600,156 +1478,16 @@ h4 {
   font-size: 18px;
   color: #fff;
   font-weight: 400;
-  /* text-transform: capitalize; */
 }
 
-/* line 51, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
 .bradcam_area p a {
   color: #fff;
 }
 
-/* line 53, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
 .bradcam_area p a:hover {
   color: #fff;
 }
 
-/* .popup_box {
-  background: #fff;
-  display: inline-block;
-  z-index: 9;
-  width: 558px;
-}
-
-.popup_box .boxed-btn3 {
-  width: 100%;
-  text-transform: capitalize;
-}
-
-.popup_box .popup_header {
-  background: #F5FBFF;
-  padding: 28px 0;
-  display: block;
-}
-
-.popup_box .popup_header h3 {
-  text-align: center;
-  font-size: 20px;
-  color: #2C2C2C;
-  margin-bottom: 0;
-  font-weight: 400;
-}
-
-.popup_box .custom_form {
-  padding: 60px 68px;
-}
-
-.popup_box input {
-  width: 100%;
-  height: 50px;
-  border: none;
-  border-bottom: 1px solid #C7C7C7;
-  padding: 15px 0;
-  margin-bottom: 20px;
-}
-
-.popup_box input::placeholder {
-  color: #919191;
-  font-weight: 400;
-}
-
-.popup_box input:focus {
-  outline: none;
-}
-
-.popup_box textarea {
-  width: 100%;
-  border: none;
-  margin-top: 112px;
-  border-bottom: 1px solid #C7C7C7;
-  padding: 15px 0;
-  margin-bottom: 20px;
-  height: 55px;
-  resize: none;
-  margin-bottom: 40px;
-}
-
-.popup_box textarea::placeholder {
-  color: #919191;
-  font-weight: 400;
-}
-
-.popup_box textarea:focus {
-  outline: none;
-}
-
-.popup_box .nice-select {
-  -webkit-tap-highlight-color: transparent;
-  background-color: #fff;
-  /* border-radius: 5px; */
-  /* border: solid 1px #E2E2E2;
-  box-sizing: border-box;
-  clear: both;
-  cursor: pointer;
-  display: block;
-  float: left;
-  font-family: "Muli", sans-serif;
-  font-weight: normal;
-  width: 100% !important;
-  /* height: 42px; */
-  /* line-height: 50px;
-  outline: none;
-  padding-left: 18px;
-  padding-right: 30px;
-  position: relative;
-  text-align: left !important;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  white-space: nowrap;
-  width: auto;
-  border-radius: 0;
-  margin-bottom: 30px;
-  height: 50px !important;
-  font-size: 16px;
-  font-weight: 400;
-  color: #919191;
-}
-
-.popup_box .nice-select::after {
-  content: "\f0d7";
-  display: block;
-  height: 5px;
-  margin-top: -5px;
-  pointer-events: none;
-  position: absolute;
-  right: 17px;
-  top: 3px;
-  transition: all 0.15s ease-in-out;
-  width: 5px;
-  font-family: fontawesome;
-  color: #919191;
-  font-size: 15px;
-}
-
-.popup_box .nice-select.open .list {
-  opacity: 1;
-  pointer-events: auto;
-  -webkit-transform: scale(1) translateY(0);
-  -ms-transform: scale(1) translateY(0);
-  transform: scale(1) translateY(0);
-  height: 200px;
-  overflow-y: scroll;
-}
-
-.popup_box .nice-select.list {
-  height: 200px;
-  overflow-y: scroll;
-}  */
-
-/* line 185, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
 #test-form {
   display: inline-block;
   margin: auto;
@@ -1763,18 +1501,15 @@ h4 {
   transform: translate(-50%, -50%);
 }
 
-/* line 193, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
 #test-form .mfp-close-btn-in .mfp-close {
   color: #333;
   display: none !important;
 }
 
-/* line 198, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
 #test-form button.mfp-close {
   display: none !important;
 }
 
-/* line 203, ../../Arafath/CL/December/233. Startup/HTML/scss/_bradcam.scss */
 .mfp-bg {
   top: 0;
   left: 0;
@@ -1788,7 +1523,6 @@ h4 {
 }
 
 
-/* line 24, ../../Arafath/CL/December/233. Startup/HTML/scss/_tesmonial.scss */
 .testimonial_area .single_testmonial p {
   color: #fff;
   font-weight: 400;
@@ -1798,13 +1532,11 @@ h4 {
 }
 
 @media (min-width: 320px) and (max-width: 1500px) {
-  /* line 30, ../../Arafath/CL/December/233. Startup/HTML/scss/_tesmonial.scss */
   .testimonial_area .single_testmonial p br {
     display: none;
   }
 }
 
-/* line 38, ../../Arafath/CL/December/233. Startup/HTML/scss/_tesmonial.scss */
 .testimonial_area .single_testmonial .testmonial_author .thumb {
   width: 42px;
   height: 42px;
@@ -1815,7 +1547,6 @@ h4 {
   margin: auto auto 12px auto;
 }
 
-/* line 45, ../../Arafath/CL/December/233. Startup/HTML/scss/_tesmonial.scss */
 .testimonial_area .single_testmonial .testmonial_author h3 {
   color: #fff;
   font-size: 16px;
@@ -1825,7 +1556,6 @@ h4 {
   color: #FFFFFF;
 }
 
-/* line 53, ../../Arafath/CL/December/233. Startup/HTML/scss/_tesmonial.scss */
 .testimonial_area .single_testmonial .testmonial_author span {
   font-size: 14px;
   font-weight: 400;
@@ -1833,31 +1563,26 @@ h4 {
   font-family: "Roboto", sans-serif;
 }
 
-/* line 61, ../../Arafath/CL/December/233. Startup/HTML/scss/_tesmonial.scss */
 .testimonial_area .owl-carousel .owl-item img {
   display: inline-block;
   width: auto;
 }
 
-/* line 65, ../../Arafath/CL/December/233. Startup/HTML/scss/_tesmonial.scss */
 .testimonial_area .owl-carousel .owl-nav div.owl-next {
   left: auto;
   right: 0;
 }
 
-/* line 69, ../../Arafath/CL/December/233. Startup/HTML/scss/_tesmonial.scss */
 .testimonial_area .owl-carousel .owl-nav div {
   left: 0;
 }
 
-/* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_service.scss */
 .service_area {
   padding-top: 64px;
   padding-bottom: 80px;
 }
 
 @media (max-width: 767px) {
-  /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_service.scss */
   .service_area {
     padding-bottom: 40px;
     padding-top: 70px;
@@ -1865,13 +1590,11 @@ h4 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_service.scss */
   .service_area {
     padding-bottom: 50px;
   }
 }
 
-/* line 11, ../../Arafath/CL/December/233. Startup/HTML/scss/_service.scss */
 .service_area .single_service {
   padding: 48px 35px 45px 35px;
   border: 2px solid #E8E8E8;
@@ -1886,13 +1609,11 @@ h4 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 11, ../../Arafath/CL/December/233. Startup/HTML/scss/_service.scss */
   .service_area .single_service {
     padding: 30px 20px;
   }
 }
 
-/* line 23, ../../Arafath/CL/December/233. Startup/HTML/scss/_service.scss */
 .service_area .single_service h3 {
   font-size: 24px;
   font-weight: 400;
@@ -1902,13 +1623,11 @@ h4 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 23, ../../Arafath/CL/December/233. Startup/HTML/scss/_service.scss */
   .service_area .single_service h3 {
     font-size: 22px;
   }
 }
 
-/* line 33, ../../Arafath/CL/December/233. Startup/HTML/scss/_service.scss */
 .service_area .single_service p {
   color: #727272;
   font-size: 16px;
@@ -1917,7 +1636,6 @@ h4 {
   margin-bottom: 0;
 }
 
-/* line 40, ../../Arafath/CL/December/233. Startup/HTML/scss/_service.scss */
 .service_area .single_service:hover {
   border: 2px solid red;
 }
@@ -2287,11 +2005,11 @@ h4 {
 }
 
 .contact-info {
-  margin-bottom: 25px;
+  margin-bottom: 35px;
 }
 
 .contact-info__icon {
-  margin-right: 20px;
+  margin-right: 30px;
 }
 
 .contact-info__icon i, .contact-info__icon span {
@@ -2318,6 +2036,7 @@ h4 {
 }
 
 /*=================== contact banner end ====================*/
+
 /*=================== contact form start ====================*/
 .contact-title {
   font-size: 27px;
@@ -2424,10 +2143,6 @@ h4 {
   border-radius: 50px;
   margin-top: 0;
 }
-
-/* .contact-section .btn_2:hover {
-  background-color: #ff5e13;
-} */
 
 .sample-text-area {
   background: #fff;
@@ -2585,11 +2300,6 @@ h6 {
   min-height: 28px;
   font-size: 12px;
   padding-left: 20px;
-}
-
-.default-select .nice-select .list .option:hover {
-  color: #ff5e13;
-  background: transparent;
 }
 
 .default-select .current {

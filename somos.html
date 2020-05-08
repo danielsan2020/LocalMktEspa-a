@@ -31,30 +31,44 @@
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/icons/styles.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <script>
+        document.addEventListener('load', () => {
+            const bntIcon = document.querySelector('.icon-bars');
+
+            bntIcon.addEventListener('click', () => {
+                const menu = document.querySelector('.container-menu');
+                console.log('hola');
+                menu.classList.toggle('d-none');
+            })
+        })
+
+    </script>
 </head>
 
 <body>
 
     <!-- header-start -->
     <header>
-        <div class="header-area ">
+        <div class="header-area">
             <div id="sticky-header" class="main-header-area">
                 <div class="container-fluid p-0">
-                    <div class="row align-items-center no-gutters">
-                        <div class="col-xl-2 col-lg-2">
+                    <div class="row align-items-center no-gutters justify-content-between">
+                        <div class="col-2">
                             <div class="logo-img">
-                                <a href="index.html">
-                                    <img src="img/logotipos/logolocalmarketingsintexto.png" height="65px" width="40px"
+                                <a class="navbar-brand" href="index.html"><img
+                                        src="img/logotipos/logolocalmarketingsintexto.png" height="65px" width="40px"
                                         alt="Local Marketing España">
                                 </a>
                             </div>
                         </div>
-                        <div class="col-xl-8 col-lg-8">
-                            <div class="main-menu d-lg-block text-center">
+
+                        <div class="container-menu none">
+                            <div class="main-menu text-center">
                                 <nav>
-                                    <ul id="navigation">
-                                        <li><a class="active" href="somos.html">Quienes somos</a></li>
+                                    <ul id="navbarNav">
+                                        <li><a class="active" href="./somos.html">Quienes somos</a></li>
                                         <li><a href="./web.html">Diseño web</a></li>
                                         <li><a href="./SEO.html">Posicionamiento SEO</a></li>
                                         <li><a href="./contacto.html">Contacto</a></li>
@@ -62,7 +76,10 @@
                                 </nav>
                             </div>
                         </div>
-                        <div class="col-lg-2 d-none d-lg-block">
+                        <div class="menu-icon">
+                            <i class="icon-bars"></i>
+                        </div>
+                        <div class="col-md-2 d-none d-lg-block">
                             <div class="log_chat_area d-flex align-items-end">
                                 <span style='font-size:35px;'>&#128242;</span>&nbsp;&nbsp;<a href="tel: 649 094 476"
                                     data-scroll-nav="0" class="say_hi">649 094 476</a>
@@ -71,7 +88,6 @@
                     </div>
                 </div>
             </div>
-        </div>
         </div>
     </header>
     <!-- header-end -->
@@ -461,8 +477,19 @@
     <script src="js/jquery.form.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/mail-script.js"></script>
-
     <script src="js/main.js"></script>
+    <script>
+        
+            const bntIcon = document.querySelector('.icon-bars');
+
+            bntIcon.addEventListener('click', () => {
+            const menu = document.querySelector('.container-menu');
+            console.log('hola');
+            menu.classList.toggle('none');
+            })
+        
+        
+    </script>
 </body>
 
 </html>
