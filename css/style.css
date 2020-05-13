@@ -10,6 +10,11 @@ body {
   font-family: "Muli", sans-serif;
   font-weight: normal;
   font-style: normal;
+  overflow-y: hidden;
+}
+
+*   {
+  overflow-x: hidden;
 }
 
 .img {
@@ -115,6 +120,7 @@ label {
   background: #444;
   color: #fff;
   text-shadow: none;
+
 }
 
 ::-moz-selection {
