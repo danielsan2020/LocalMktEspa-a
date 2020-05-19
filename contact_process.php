@@ -1,11 +1,12 @@
 <?php
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        // var_dump($_POST);
         
-        access
-        $secretKey = '6LdXY_kUAAAAAMIWUHJksadB2V5cgQT5T44K3bjf';       
-        $captcha = $_POST['token'];
+        error_reporting(E_ALL);
+        ini_set('display_errors','1');
+        $secretKey = '6LdXY_kUAAAAAMIWUHJksadB2V5cgQT5T44K3bjf';
+        $captcha = $_POST['g-recaptcha-response'];
+        echo "este es el captcha $captcha";
         if(!$captcha){
           echo '<p class="alert alert-warning">Por favor presiona el captcha.</p>';
           exit;
@@ -60,13 +61,12 @@
               'content' => http_build_query($data)
             )
           );
+        //Optención de respuesta de API de google para validar el reCaptcha
+        $response = file_get_contents("$url?secret=$secretKey&response=$captcha");
+        echo "response: $response";
 
-        $context  = stream_context_create($options);
-        $response = file_get_contents($url, false, $context);
-
-       $responseKeys = json_decode($response, true);
+        $responseKeys = json_decode($response, TRUE);
        
-
         if($responseKeys['success'] != true) {
           echo '<p class="alert alert-warning">Por favor presiona el captcha.</p>';
         } else {
