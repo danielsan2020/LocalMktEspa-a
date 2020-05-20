@@ -1,5 +1,4 @@
 <?php
-
     if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['recaptcha_response'])) {
         
         error_reporting(E_ALL);
@@ -7,15 +6,15 @@
 
         // Build POST request:
         $recaptcha_url = 'https://www.google.com/recaptcha/api/siteverify';
-        $recaptcha_secret = '6Lfn0PkUAAAAACbaJJ0fJHm1PNHU9tuzcNC_pdBx';
+        $recaptcha_secret = '6LdXY_kUAAAAAMIWUHJksadB2V5cgQT5T44K3bjf';
         $recaptcha_response = $_POST['recaptcha_response'];
 
 
         //Optención de respuesta de API de google para validar el reCaptcha
         $recaptcha = file_get_contents($recaptcha_url . '?secret=' . $recaptcha_secret . '&response=' . $recaptcha_response);
+
         //Se codifica respuesta de google en Json.
         $response = json_decode($recaptcha);
-        echo $recaptcha;
 
         $mail_to = "info@local-marketing.es";
         
@@ -69,7 +68,6 @@
              if ($success) {
                  # Set a 200 (okay) response code.
                  http_response_code(200);
-                 echo '<p class="alert alert-success">Gracias! Tu mensaje fue enviado.</p>';
              } else {
                  # Set a 500 (internal server error) response code.
                  http_response_code(500);
@@ -86,5 +84,5 @@
         http_response_code(403);
         echo '<p class="alert alert-warning">Hay algún problema en tu registro, inténtalo de nuevo.</p>';
     }
-
+    header('location:./presupuestos-paginas-web-alicante.html');
 ?>
