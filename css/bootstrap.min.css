@@ -224,7 +224,6 @@ figure {
 
 img {
     vertical-align: middle;
-    margin-left: 30px;
     border-style: none
 }
 
@@ -774,7 +773,7 @@ pre code {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 41.666667%;
     flex: 0 0 41.666667%;
-    max-width: 41.666667%
+    max-width: 38.666667%
 }
 
 .col-6 {
